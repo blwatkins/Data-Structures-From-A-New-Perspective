@@ -3,13 +3,13 @@
 ## Week 1 - Introduction and Set Up
 
 ### Monday
-  * Lesson: [Welcome](https://github.com/blwatkins/DataStructures_EL/blob/master/Java/1_Introduction/day1.md)
+  * Lesson: [Welcome]()
 
 ### Wednesday
-  * Lesson: [Introduction to the UNIX Shell](https://github.com/blwatkins/DataStructures_EL/blob/master/Java/1_Introduction/day2.md)
+  * Lesson: [Introduction to the UNIX Shell]()
 
 ### Friday
-  * Lesson: [Git and GitHub](https://github.com/blwatkins/DataStructures_EL/blob/master/Java/1_Introduction/day3.md)
+  * Lesson: [Git and GitHub]()
 
 ### Lab
   * No lab this week
@@ -17,15 +17,15 @@
 ## Week 2 - Introduction to Data Structures
 
 ### Monday
-  * Lesson: [Basic Data Structures, Structs and Arrays](https://github.com/blwatkins/DataStructures_EL/blob/master/Java/1_Introduction/day4.md)
-  * Homework Assigned: [Deleting Elements from an Array](https://github.com/blwatkins/DataStructures_EL/blob/master/Java/1_Introduction/homework.md)
+  * Lesson: [Basic Data Structures, Structs and Arrays]()
+  * Homework Assigned: [Deleting Elements from an Array]()
 
 ### Wednesday
-  * Lesson: [Basic Data Structures, Arrays and ArrayLists](https://github.com/blwatkins/DataStructures_EL/blob/master/Java/1_Introduction/day5.md)
+  * Lesson: [Basic Data Structures, Arrays and ArrayLists]()
 
 ### Friday
-  * Lesson: [Homework Review](https://github.com/blwatkins/DataStructures_EL/blob/master/Java/1_Introduction/day6.md)
-  * Homework Due: [Deleting Elements from an Array](https://github.com/blwatkins/DataStructures_EL/blob/master/Java/1_Introduction/homework.md)
+  * Lesson: [Homework Review]()
+  * Homework Due: [Deleting Elements from an Array]()
 
 ### Lab
   * No lab this week
@@ -33,42 +33,42 @@
 ## Week 3 - Algorithm Analysis
 
 ### Monday
-  * Lesson: [Analyzing Algorithms](https://github.com/blwatkins/DataStructures_EL/blob/master/Java/2_AlgorithmAnalysis/day1.md)
-  * Project Assigned: [Dynamic Artwork](https://github.com/blwatkins/DataStructures_EL/blob/master/Java/2_AlgorithmAnalysis/project.md)
+  * Lesson: [Analyzing Algorithms]()
+  * Project Assigned: [Dynamic Artwork]()
 
 ### Wednesday
-  * Lesson: [Growth Rate and Asymptotic Analysis](https://github.com/blwatkins/DataStructures_EL/blob/master/Java/2_AlgorithmAnalysis/day2.md)
+  * Lesson: [Growth Rate and Asymptotic Analysis]()
 
 ### Friday
-  * Lesson: [Big-Oh Analysis](https://github.com/blwatkins/DataStructures_EL/blob/master/Java/2_AlgorithmAnalysis/day3.md)
+  * Lesson: [Big-Oh Analysis]()
 
 ### Lab
-  * [Setting up the Environment](https://github.com/blwatkins/DataStructures_EL/blob/master/Java/2_AlgorithmAnalysis/lab.md)
+  * [Setting up the Environment]()
 
 ## Week 4 - Sorting
 
 ### Monday
-  * Lesson: [Sorting in Java](https://github.com/blwatkins/DataStructures_EL/blob/master/Java/3_Sorting/day1.md)
-  * Project Due: [Dynamic Artwork](https://github.com/blwatkins/DataStructures_EL/blob/master/Java/2_AlgorithmAnalysis/project.md)
+  * Lesson: [Sorting in Java]()
+  * Project Due: [Dynamic Artwork]()
 
 ### Wedensday
-  * Lesson: [Selection Sort](https://github.com/blwatkins/DataStructures_EL/blob/master/Java/3_Sorting/day2.md)
+  * Lesson: [Selection Sort]()
 
 ### Friday
-  * Lesson: [Quick Sort](https://github.com/blwatkins/DataStructures_EL/blob/master/Java/3_Sorting/day3.md)
+  * Lesson: [Quick Sort]()
 
 ### Lab
 
 ## Week 5 - Sorting
 
 ### Monday
-  * Lesson: [Merge Sort](https://github.com/blwatkins/DataStructures_EL/blob/master/Java/3_Sorting/day4.md)
+  * Lesson: [Merge Sort]()
   
 ### Wednesday
-  * Lesson: [Homework Review and Small Group Discussions](https://github.com/blwatkins/DataStructures_EL/blob/master/Java/3_Sorting/day5.md)
+  * Lesson: [Homework Review and Small Group Discussions]()
 
 ### Friday
-  * Lesson: [Homework Review and Group Presentations](https://github.com/blwatkins/DataStructures_EL/blob/master/Java/3_Sorting/day6.md)
+  * Lesson: [Homework Review and Group Presentations]()
   
 ### Lab
 
