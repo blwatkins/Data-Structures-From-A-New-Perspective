@@ -3,13 +3,13 @@
 ## Week 1 - Introduction and Set Up
 
 ### Monday
-  * Lesson: [Welcome]()
+  * Lesson: [Welcome](https://github.com/blwatkins/Data-Structures-From-A-New-Perspective/blob/master/1_Introduction/day1.md)
 
 ### Wednesday
-  * Lesson: [Introduction to the UNIX Shell]()
+  * Lesson: [Introduction to the UNIX Shell](https://github.com/blwatkins/Data-Structures-From-A-New-Perspective/blob/master/1_Introduction/day2.md)
 
 ### Friday
-  * Lesson: [Git and GitHub]()
+  * Lesson: [Git and GitHub](https://github.com/blwatkins/Data-Structures-From-A-New-Perspective/blob/master/1_Introduction/day3.md)
 
 ### Lab
   * No lab this week
@@ -17,15 +17,15 @@
 ## Week 2 - Introduction to Data Structures
 
 ### Monday
-  * Lesson: [Basic Data Structures, Structs and Arrays]()
-  * Homework Assigned: [Deleting Elements from an Array]()
+  * Lesson: [Basic Data Structures, Structs and Arrays](https://github.com/blwatkins/Data-Structures-From-A-New-Perspective/blob/master/1_Introduction/day4.md)
+  * Homework Assigned: [Deleting Elements from an Array](https://github.com/blwatkins/Data-Structures-From-A-New-Perspective/blob/master/1_Introduction/homework.md)
 
 ### Wednesday
-  * Lesson: [Basic Data Structures, Arrays and ArrayLists]()
+  * Lesson: [Basic Data Structures, Arrays and ArrayLists](https://github.com/blwatkins/Data-Structures-From-A-New-Perspective/blob/master/1_Introduction/day5.md)
 
 ### Friday
-  * Lesson: [Homework Review]()
-  * Homework Due: [Deleting Elements from an Array]()
+  * Lesson: [Homework Review](https://github.com/blwatkins/Data-Structures-From-A-New-Perspective/blob/master/1_Introduction/day6.md)
+  * Homework Due: [Deleting Elements from an Array](https://github.com/blwatkins/Data-Structures-From-A-New-Perspective/blob/master/1_Introduction/homework.md)
 
 ### Lab
   * No lab this week
