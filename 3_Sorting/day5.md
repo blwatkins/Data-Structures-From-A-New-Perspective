@@ -12,3 +12,7 @@
 # Homework Assigned
 
 # Homework Due
+  * [Visualizing Text]()
+  * [Selection Sort Implementation]()
+  * [Quick Sort Implementation]()
+  * [Merge Sort Implementation]()

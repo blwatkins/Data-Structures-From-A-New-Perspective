@@ -20,5 +20,3 @@
   * [Sorting Algorithm Comparisons](https://www.cs.usfca.edu/~galles/visualization/ComparisonSort.html)
 
 # Homework Assigned: [Selection Sort Implementation]()
-
-# Homework Due: [Visualizing Text]()

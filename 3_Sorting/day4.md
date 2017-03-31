@@ -10,6 +10,4 @@
   * Worst Case
   * Average Case
 
-# Homework Assigned
-
-# Homework Due
+# Homework Assigned: [Merge Sort Implementation]()

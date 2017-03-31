@@ -12,6 +12,4 @@
   * Average case
   * The cost of chosing a good pivot
 
-# Homework Assigned
-
-# Homework Due: [Selection Sort Implementation]()
+# Homework Assigned: [Quick Sort Implementation]()
