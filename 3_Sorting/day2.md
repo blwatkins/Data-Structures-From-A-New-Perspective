@@ -19,6 +19,6 @@
   * [Sorting Algorithm Animations](https://www.toptal.com/developers/sorting-algorithms)
   * [Sorting Algorithm Comparisons](https://www.cs.usfca.edu/~galles/visualization/ComparisonSort.html)
 
-# Homework Assigned
+# Homework Assigned: [Selection Sort Implementation]()
 
-# Homework Due
+# Homework Due: [Visualizing Text]()
