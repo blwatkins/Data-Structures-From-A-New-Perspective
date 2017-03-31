@@ -48,27 +48,27 @@
 ## Week 4 - Sorting
 
 ### Monday
-  * Lesson: [Sorting in Java]()
+  * Lesson: [Sorting in Java](https://github.com/blwatkins/Data-Structures-From-A-New-Perspective/blob/master/3_Sorting/day1.md)
   * Project Due: [Dynamic Artwork](https://github.com/blwatkins/Data-Structures-From-A-New-Perspective/blob/master/2_AlgorithmAnalysis/project.md)
 
 ### Wedensday
-  * Lesson: [Selection Sort]()
+  * Lesson: [Selection Sort](https://github.com/blwatkins/Data-Structures-From-A-New-Perspective/blob/master/3_Sorting/day2.md)
 
 ### Friday
-  * Lesson: [Quick Sort]()
+  * Lesson: [Quick Sort](https://github.com/blwatkins/Data-Structures-From-A-New-Perspective/blob/master/3_Sorting/day3.md)
 
 ### Lab
 
 ## Week 5 - Sorting
 
 ### Monday
-  * Lesson: [Merge Sort]()
+  * Lesson: [Merge Sort](https://github.com/blwatkins/Data-Structures-From-A-New-Perspective/blob/master/3_Sorting/day4.md)
   
 ### Wednesday
-  * Lesson: [Homework Review and Small Group Discussions]()
+  * Lesson: [Homework Review and Small Group Discussions](https://github.com/blwatkins/Data-Structures-From-A-New-Perspective/blob/master/3_Sorting/day5.md)
 
 ### Friday
-  * Lesson: [Homework Review and Group Presentations]()
+  * Lesson: [Homework Review and Group Presentations](https://github.com/blwatkins/Data-Structures-From-A-New-Perspective/blob/master/3_Sorting/day6.md)
   
 ### Lab
 
