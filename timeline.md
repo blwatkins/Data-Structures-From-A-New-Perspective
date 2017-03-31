@@ -33,23 +33,23 @@
 ## Week 3 - Algorithm Analysis
 
 ### Monday
-  * Lesson: [Analyzing Algorithms]()
-  * Project Assigned: [Dynamic Artwork]()
+  * Lesson: [Analyzing Algorithms](https://github.com/blwatkins/Data-Structures-From-A-New-Perspective/blob/master/2_AlgorithmAnalysis/day1.md)
+  * Project Assigned: [Dynamic Artwork](https://github.com/blwatkins/Data-Structures-From-A-New-Perspective/blob/master/2_AlgorithmAnalysis/project.md)
 
 ### Wednesday
-  * Lesson: [Growth Rate and Asymptotic Analysis]()
+  * Lesson: [Growth Rate and Asymptotic Analysis](https://github.com/blwatkins/Data-Structures-From-A-New-Perspective/blob/master/2_AlgorithmAnalysis/day2.md)
 
 ### Friday
-  * Lesson: [Big-Oh Analysis]()
+  * Lesson: [Big-Oh Analysis](https://github.com/blwatkins/Data-Structures-From-A-New-Perspective/blob/master/2_AlgorithmAnalysis/day3.md)
 
 ### Lab
-  * [Setting up the Environment]()
+  * [Setting up the Environment](https://github.com/blwatkins/Data-Structures-From-A-New-Perspective/blob/master/2_AlgorithmAnalysis/lab.md)
 
 ## Week 4 - Sorting
 
 ### Monday
   * Lesson: [Sorting in Java]()
-  * Project Due: [Dynamic Artwork]()
+  * Project Due: [Dynamic Artwork](https://github.com/blwatkins/Data-Structures-From-A-New-Perspective/blob/master/2_AlgorithmAnalysis/project.md)
 
 ### Wedensday
   * Lesson: [Selection Sort]()
