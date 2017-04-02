@@ -1,7 +1,7 @@
 # Unit 3 - Day 2: Selection Sort
 
 ## What happens when we call `sort(...)`?
-  * values are changed around according to the rules of whatever sorting algorithm is being executed
+  * Values are changed around according to the rules of whatever sorting algorithm is being executed
   * Many different kinds of sorting algorithms
   * `sort(...)` function implements an optimized and heavily tested version of one or more algorithms
 
