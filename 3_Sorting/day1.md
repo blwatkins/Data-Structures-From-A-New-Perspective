@@ -11,7 +11,6 @@
 ## How do we sort an array of objects in Processing/Java?
   * Creating a `Comparator`
   * Defining `compare(...)` functions
-  * Using `Collections`
 
 # Homework Assignned
 
