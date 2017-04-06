@@ -25,6 +25,8 @@
 
 # [Solution](https://github.com/blwatkins/Data-Structures-From-A-New-Perspective/tree/master/2_AlgorithmAnalysis/Project/Solution/src)
 
+<img src="https://github.com/blwatkins/Data-Structures-From-A-New-Perspective/blob/master/2_AlgorithmAnalysis/Project/Images/project1_0.png" alt="Image 1" width="250" height="250">
+
 ![Image 1](https://github.com/blwatkins/Data-Structures-From-A-New-Perspective/blob/master/2_AlgorithmAnalysis/Project/Images/project1_0.png)
 
 ![Image 2](https://github.com/blwatkins/Data-Structures-From-A-New-Perspective/blob/master/2_AlgorithmAnalysis/Project/Images/project1_1.png)
