@@ -25,7 +25,7 @@
 
 # [Solution](https://github.com/blwatkins/Data-Structures-From-A-New-Perspective/tree/master/2_AlgorithmAnalysis/Project/Solution/src)
 
-<img src="https://github.com/blwatkins/Data-Structures-From-A-New-Perspective/blob/master/2_AlgorithmAnalysis/Project/Images/project1_0.png" alt="Image 1" width="300" height="300">
+<img src="https://github.com/blwatkins/Data-Structures-From-A-New-Perspective/blob/master/2_AlgorithmAnalysis/Project/Images/project1_0.png" alt="Image 1" width="400" height="400">
 
 <img src="https://github.com/blwatkins/Data-Structures-From-A-New-Perspective/blob/master/2_AlgorithmAnalysis/Project/Images/project1_1.png" alt="Image 2" width="300" height="300">
 
