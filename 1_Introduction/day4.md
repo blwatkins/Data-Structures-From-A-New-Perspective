@@ -23,4 +23,8 @@
 ## How Do We Perform these Functions with Basic Arrays?
   * Focus on access and insert
 
+## [Struct Example]()
+
+## [Array Example]()
+
 # Homework Assigned: [Deleting Elements from an Array](https://github.com/blwatkins/Data-Structures-From-A-New-Perspective/blob/master/1_Introduction/homework.md)
