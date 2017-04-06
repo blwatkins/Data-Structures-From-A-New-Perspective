@@ -34,4 +34,19 @@ Based on a Monday, Wednesday, Friday class Schedule
 #### Lab
   * No lab this week
 
+### Week 3 - Algorithm Analysis
+
+#### Monday
+  * Lesson: [Analyzing Algorithms](2_AlgorithmAnalysis/day1.md)
+  * Project Assigned: [Dynamic Artwork](2_AlgorithmAnalysis/project.md)
+
+#### Wednesday
+  * Lesson: [Growth Rate and Asymptotic Analysis](2_AlgorithmAnalysis/day2.md)
+
+#### Friday
+  * Lesson: [Big-Oh Analysis](2_AlgorithmAnalysis/day3.md)
+
+#### Lab
+  * [Setting up the Environment](2_AlgorithmAnalysis/lab.md)
+
 ## [Markdown Reference](welcome.md)
