@@ -25,14 +25,12 @@
 
 # [Solution](https://github.com/blwatkins/Data-Structures-From-A-New-Perspective/tree/master/2_AlgorithmAnalysis/Project/Solution/src)
 
-<img src="https://github.com/blwatkins/Data-Structures-From-A-New-Perspective/blob/master/2_AlgorithmAnalysis/Project/Images/project1_0.png" alt="Image 1" width="250" height="250">
+<img src="https://github.com/blwatkins/Data-Structures-From-A-New-Perspective/blob/master/2_AlgorithmAnalysis/Project/Images/project1_0.png" alt="Image 1" width="300" height="300">
 
-![Image 1](https://github.com/blwatkins/Data-Structures-From-A-New-Perspective/blob/master/2_AlgorithmAnalysis/Project/Images/project1_0.png)
+<img src="https://github.com/blwatkins/Data-Structures-From-A-New-Perspective/blob/master/2_AlgorithmAnalysis/Project/Images/project1_1.png" alt="Image 2" width="300" height="300">
 
-![Image 2](https://github.com/blwatkins/Data-Structures-From-A-New-Perspective/blob/master/2_AlgorithmAnalysis/Project/Images/project1_1.png)
+<img src="https://github.com/blwatkins/Data-Structures-From-A-New-Perspective/blob/master/2_AlgorithmAnalysis/Project/Images/project1_2.png" alt="Image 3" width="300" height="300">
 
-![Image 3](https://github.com/blwatkins/Data-Structures-From-A-New-Perspective/blob/master/2_AlgorithmAnalysis/Project/Images/project1_2.png)
+<img src="https://github.com/blwatkins/Data-Structures-From-A-New-Perspective/blob/master/2_AlgorithmAnalysis/Project/Images/project1_3.png" alt="Image 4" width="300" height="300">
 
-![Image 4](https://github.com/blwatkins/Data-Structures-From-A-New-Perspective/blob/master/2_AlgorithmAnalysis/Project/Images/project1_3.png)
-
-![Image 5](https://github.com/blwatkins/Data-Structures-From-A-New-Perspective/blob/master/2_AlgorithmAnalysis/Project/Images/project1_4.png)
+<img src="https://github.com/blwatkins/Data-Structures-From-A-New-Perspective/blob/master/2_AlgorithmAnalysis/Project/Images/project1_4.png" alt="Image 5" width="300" height="300">
