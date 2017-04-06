@@ -23,3 +23,5 @@
   * [Netbeans IDE](https://netbeans.org/)
   * [Eclipse IDE](https://eclipse.org/)
   * [IntelliJ IDE](https://www.jetbrains.com/idea/)
+
+# [Recommended Videos](https://github.com/blwatkins/Data-Structures-From-A-New-Perspective/blob/master/1_Introduction/videos.md)
