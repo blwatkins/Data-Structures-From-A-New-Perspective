@@ -23,5 +23,3 @@
   * [Netbeans IDE](https://netbeans.org/)
   * [Eclipse IDE](https://eclipse.org/)
   * [IntelliJ IDE](https://www.jetbrains.com/idea/)
-
-# [Recommended Videos](videos.md)
