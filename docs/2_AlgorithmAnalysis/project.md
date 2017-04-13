@@ -25,6 +25,8 @@
 
 # [Solution](https://github.com/blwatkins/Data-Structures-From-A-New-Perspective/tree/master/2_AlgorithmAnalysis/Project/Solution/src)
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/s6jCsv2xJ_s" frameborder="0" allowfullscreen></iframe>
+
 <img src="Images/project1_0.png" alt="Image 1" width="500" height="500">
 
 <img src="Images/project1_1.png" alt="Image 2" width="500" height="500">
