@@ -6,6 +6,6 @@
 
 ## Homework
 
-## [Project]()
+## [Project](project.md)
 
-## [Recommended Videos]()
+## [Recommended Videos](videos.md)
