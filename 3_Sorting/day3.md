@@ -11,5 +11,3 @@
   * Worst case
   * Average case
   * The cost of chosing a good pivot
-
-# Homework Assigned: [Quick Sort Implementation](https://github.com/blwatkins/Data-Structures-From-A-New-Perspective/blob/master/3_Sorting/homework3.md)
