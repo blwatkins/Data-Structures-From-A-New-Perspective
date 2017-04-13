@@ -26,6 +26,3 @@
 ## [Struct Example](https://github.com/blwatkins/Data-Structures-From-A-New-Perspective/tree/master/1_Introduction/Day4/Structs)
 
 ## [Array Example](https://github.com/blwatkins/Data-Structures-From-A-New-Perspective/tree/master/1_Introduction/Day4/Arrays)
-
-# Homework Assigned
-## [Deleting Elements from an Array](homework.md)
