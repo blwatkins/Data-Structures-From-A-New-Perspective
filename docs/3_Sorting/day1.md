@@ -17,5 +17,3 @@
 # Project Assigned: [Sorting Objects](project.md)
 
 # Project Due: [Dynamic Artwork](../2_AlgorithmAnalysis/project.md)
-
-# [Recommended Videos](videos.md)
