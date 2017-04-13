@@ -1,4 +1,4 @@
-# Homework: Deleting Elements from an Array
+# Unit 1 - Homework: Deleting Elements from an Array
 
 Using the template given, write a complete program that features the following: 
   - A class called `MyArray` with the method `void removeValue(int index)`
