@@ -3,6 +3,3 @@
 ## Steps
   1. Each group from the [homework review and small group discussions](day5.md) should have a small discussion about the results of the empirical analysis of their algorithm
   2. Each group will present their optimized algorithm and emperical analysis results to the class
-
-# Homework Due
-  * [Empirical Analysis](homework5.md)

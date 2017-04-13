@@ -11,12 +11,3 @@
 ## How do we sort an array of objects in Processing/Java?
   * Creating a `Comparator`
   * Defining `compare(...)` functions
-
-# Homework Assignned
-  * [Visualizing Text](homework1.md)
-
-# Project Assigned
-  * [Sorting Objects](project.md)
-
-# Project Due
-  * [Dynamic Artwork](../2_AlgorithmAnalysis/project.md)

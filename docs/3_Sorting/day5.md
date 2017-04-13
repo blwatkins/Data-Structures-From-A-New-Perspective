@@ -5,12 +5,3 @@
   2. Each group will discuss and explain their implementations of the assigned sorting algorithm.
   3. The group will either choose or create what they believe to be the best version of their sorting algorithm
       * Each group member should be prepared to explain and answer questions about the optimized algorithm
-
-# Homework Assigned
-  * [Empirical Analysis](homework5.md)
-
-# Homework Due
-  * [Visualizing Text](homework1.md)
-  * [Selection Sort Implementation](homework2.md)
-  * [Quick Sort Implementation](homework3.md)
-  * [Merge Sort Implementation](homework4.md)
