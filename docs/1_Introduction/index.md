@@ -1,4 +1,4 @@
-# Unit 1 - Sorting
+# Unit 1 - Introduction
 
 ## Lectures
   * [Welcome](day1.md)
