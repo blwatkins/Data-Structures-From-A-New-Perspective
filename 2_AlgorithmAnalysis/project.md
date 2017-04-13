@@ -1,4 +1,4 @@
-# Programming Project: Dynamic Artwork
+# Unit 2 - Programming Project: Dynamic Artwork
 
 ## Problem
   Create a dynamic piece of digital artwork using the Processing library in a Java IDE (Netbeans, Eclipse, IntelliJ, etc).
