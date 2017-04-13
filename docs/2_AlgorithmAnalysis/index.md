@@ -2,6 +2,6 @@
 
 ## Lectures
 
-## [Lab]()
+## [Lab](lab.md)
 
-## [Project]()
+## [Project](project.md)
