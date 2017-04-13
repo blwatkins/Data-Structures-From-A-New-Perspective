@@ -6,7 +6,8 @@
   3. The group will either choose or create what they believe to be the best version of their sorting algorithm
       * Each group member should be prepared to explain and answer questions about the optimized algorithm
 
-# Homework Assigned: [Empirical Analysis](homework5.md)
+# Homework Assigned
+  * [Empirical Analysis](homework5.md)
 
 # Homework Due
   * [Visualizing Text](homework1.md)

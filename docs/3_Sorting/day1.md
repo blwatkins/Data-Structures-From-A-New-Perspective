@@ -12,8 +12,11 @@
   * Creating a `Comparator`
   * Defining `compare(...)` functions
 
-# Homework Assignned: [Visualizing Text](homework1.md)
+# Homework Assignned
+  * [Visualizing Text](homework1.md)
 
-# Project Assigned: [Sorting Objects](project.md)
+# Project Assigned
+  * [Sorting Objects](project.md)
 
-# Project Due: [Dynamic Artwork](../2_AlgorithmAnalysis/project.md)
+# Project Due
+  * [Dynamic Artwork](../2_AlgorithmAnalysis/project.md)

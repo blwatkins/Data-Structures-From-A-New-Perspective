@@ -6,4 +6,5 @@
   3. Each group should choose their favorite solution
   4. Have one person from each group come up and present their code
 
-# Homework Due: [Deleting Elements from an Array](homework.md)
+# Homework Due
+  * [Deleting Elements from an Array](homework.md)

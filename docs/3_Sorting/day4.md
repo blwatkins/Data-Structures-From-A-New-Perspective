@@ -10,4 +10,5 @@
   * Worst Case
   * Average Case
 
-# Homework Assigned: [Merge Sort Implementation](homework4.md)
+# Homework Assigned
+  * [Merge Sort Implementation](homework4.md)
