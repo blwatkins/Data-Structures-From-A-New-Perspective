@@ -1,4 +1,4 @@
-# Programming Project: Sorting Objects
+# Unit 3 - Programming Project: Sorting Objects
 
 ## Problem
   Create an interactive visualization of sorted data using the Processing library in a Java IDE

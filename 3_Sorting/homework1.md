@@ -1,4 +1,4 @@
-# Homework: Visualizing Text
+# Unit 3 - Homework: Visualizing Text
 
 In a Java IDE, create a Processing sketch that satifies the following criteria:
   * Gets input from a text file
