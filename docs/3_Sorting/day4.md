@@ -10,4 +10,4 @@
   * Worst Case
   * Average Case
 
-# Homework Assigned: [Merge Sort Implementation](https://github.com/blwatkins/Data-Structures-From-A-New-Perspective/blob/master/3_Sorting/homework4.md)
+# Homework Assigned: [Merge Sort Implementation](homework4.md)

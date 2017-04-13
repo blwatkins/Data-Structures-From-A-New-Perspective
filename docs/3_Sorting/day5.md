@@ -6,10 +6,10 @@
   3. The group will either choose or create what they believe to be the best version of their sorting algorithm
       * Each group member should be prepared to explain and answer questions about the optimized algorithm
 
-# Homework Assigned: [Empirical Analysis](https://github.com/blwatkins/Data-Structures-From-A-New-Perspective/blob/master/3_Sorting/homework5.md)
+# Homework Assigned: [Empirical Analysis](homework5.md)
 
 # Homework Due
-  * [Visualizing Text](https://github.com/blwatkins/Data-Structures-From-A-New-Perspective/blob/master/3_Sorting/homework1.md)
-  * [Selection Sort Implementation](https://github.com/blwatkins/Data-Structures-From-A-New-Perspective/blob/master/3_Sorting/homework2.md)
-  * [Quick Sort Implementation](https://github.com/blwatkins/Data-Structures-From-A-New-Perspective/blob/master/3_Sorting/homework3.md)
-  * [Merge Sort Implementation](https://github.com/blwatkins/Data-Structures-From-A-New-Perspective/blob/master/3_Sorting/homework4.md)
+  * [Visualizing Text](homework1.md)
+  * [Selection Sort Implementation](homework2.md)
+  * [Quick Sort Implementation](homework3.md)
+  * [Merge Sort Implementation](homework4.md)
