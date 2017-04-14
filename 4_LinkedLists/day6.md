@@ -2,7 +2,7 @@
 
 ## Homework Review
   * Divide into small groups
-  * Each group should discuss how they implemented their linked list and the `remove(...)` function
+  * Each group should discuss how they implemented the linked list and the `remove(...)` function
 
 ## Structure Comparison: Arrays vs. Linked Lists
   * How do arrays compare to linked lists?
