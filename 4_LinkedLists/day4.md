@@ -11,4 +11,4 @@
     * Printing the list
       * With recursion
       * Without recursion
-    * Get an element from the list
+    * Getting an element from the list
