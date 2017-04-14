@@ -17,3 +17,5 @@
 
 ## Project
   * [Data Visualization](https://github.com/blwatkins/Data-Structures-From-A-New-Perspective/blob/master/4_LinkedLists/project.md)
+
+## [Recommended Videos](https://github.com/blwatkins/Data-Structures-From-A-New-Perspective/blob/master/4_LinkedLists/videos.md)
