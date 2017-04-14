@@ -90,9 +90,29 @@
 ## Week 5 - Linked Lists
 
 ### Monday
+  * Lesson: [Lists](https://github.com/blwatkins/Data-Structures-From-A-New-Perspective/blob/master/4_LinkedLists/day1.md)
   * Project Due: [Sorting Objects](https://github.com/blwatkins/Data-Structures-From-A-New-Perspective/blob/master/3_Sorting/project.md)
 
+### Wednesday
+  * Lesson: [Linked Lists](https://github.com/blwatkins/Data-Structures-From-A-New-Perspective/blob/master/4_LinkedLists/day2.md)
+
+### Friday
+  * Lesson: [Linked Lists in Java](https://github.com/blwatkins/Data-Structures-From-A-New-Perspective/blob/master/4_LinkedLists/day3.md)
+
+### Lab
+
 ## Week 6 - Linked Lists
+
+### Monday
+  * Lesson: [Implementing a Linked List](https://github.com/blwatkins/Data-Structures-From-A-New-Perspective/blob/master/4_LinkedLists/day4.md)
+
+### Wednesday
+  * Lesson: [Implementing a Linked List, Day 2](https://github.com/blwatkins/Data-Structures-From-A-New-Perspective/blob/master/4_LinkedLists/day5.md)
+
+### Friday
+  * Lesson: [Homework Review and Structure Comparison](https://github.com/blwatkins/Data-Structures-From-A-New-Perspective/blob/master/4_LinkedLists/day6.md)
+
+### Lab
 
 ## Week 7 - Stacks and Queues
 
