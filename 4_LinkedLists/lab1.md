@@ -11,5 +11,5 @@
 ## JSON in Processing
   * `JSONObject`
   * `JSONArray`
-  * loading in data
-  * accessing attributes of a `JSONObject`
+  * Loading in data
+  * Accessing attributes of a `JSONObject`
