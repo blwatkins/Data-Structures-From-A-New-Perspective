@@ -1,4 +1,4 @@
-# Unit 4 - Day 5: Implementing a Linked List
+# Unit 4 - Day 4: Implementing a Linked List
 
 ## Creating a `Node`
   * Data
