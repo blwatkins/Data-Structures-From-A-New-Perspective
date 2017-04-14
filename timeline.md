@@ -100,6 +100,7 @@
   * Lesson: [Linked Lists in Java](https://github.com/blwatkins/Data-Structures-From-A-New-Perspective/blob/master/4_LinkedLists/day3.md)
 
 ### Lab
+  * [JSON](https://github.com/blwatkins/Data-Structures-From-A-New-Perspective/blob/master/4_LinkedLists/lab1.md)
 
 ## Week 6 - Linked Lists
 
@@ -115,6 +116,7 @@
   * Homework Due: [Deleting Elements from a Linked List](https://github.com/blwatkins/Data-Structures-From-A-New-Perspective/blob/master/4_LinkedLists/homework.md)
 
 ### Lab
+  * [Work Day](https://github.com/blwatkins/Data-Structures-From-A-New-Perspective/blob/master/4_LinkedLists/lab2.md)
 
 ## Week 7 - Stacks and Queues
 
