@@ -14,3 +14,6 @@
 
 ## Homework
   * [Deleting Elements from a Linked List](https://github.com/blwatkins/Data-Structures-From-A-New-Perspective/blob/master/4_LinkedLists/homework.md)
+
+## Project
+  * [Data Visualization](https://github.com/blwatkins/Data-Structures-From-A-New-Perspective/blob/master/4_LinkedLists/project.md)
