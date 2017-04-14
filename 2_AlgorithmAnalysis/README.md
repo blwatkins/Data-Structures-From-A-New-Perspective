@@ -5,6 +5,8 @@
   * [Growth Rate and Asymptotic Analysis](https://github.com/blwatkins/Data-Structures-From-A-New-Perspective/blob/master/2_AlgorithmAnalysis/day2.md)
   * [Big-Oh Analysis](https://github.com/blwatkins/Data-Structures-From-A-New-Perspective/blob/master/2_AlgorithmAnalysis/day3.md)
 
-## [Lab](https://github.com/blwatkins/Data-Structures-From-A-New-Perspective/blob/master/2_AlgorithmAnalysis/lab.md)
+## Labs
+  * [Setting Up the Environment](https://github.com/blwatkins/Data-Structures-From-A-New-Perspective/blob/master/2_AlgorithmAnalysis/lab.md)
 
-## [Project](https://github.com/blwatkins/Data-Structures-From-A-New-Perspective/blob/master/2_AlgorithmAnalysis/project.md)
+## Project
+  * [Dynamic Artwork](https://github.com/blwatkins/Data-Structures-From-A-New-Perspective/blob/master/2_AlgorithmAnalysis/project.md)

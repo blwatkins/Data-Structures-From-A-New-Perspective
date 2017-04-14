@@ -7,3 +7,6 @@
   * [Implementing a Linked List](https://github.com/blwatkins/Data-Structures-From-A-New-Perspective/blob/master/4_LinkedLists/day4.md)
   * [Implementing a Linked List, Day 2](https://github.com/blwatkins/Data-Structures-From-A-New-Perspective/blob/master/4_LinkedLists/day5.md)
   * [Homework Review and Structure Comparison](https://github.com/blwatkins/Data-Structures-From-A-New-Perspective/blob/master/4_LinkedLists/day6.md)
+
+## Homework
+  * [Deleting Elements from a Linked List](https://github.com/blwatkins/Data-Structures-From-A-New-Perspective/blob/master/4_LinkedLists/homework.md)
