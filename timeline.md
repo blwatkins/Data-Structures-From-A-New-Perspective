@@ -91,6 +91,7 @@
 
 ### Monday
   * Lesson: [Lists](https://github.com/blwatkins/Data-Structures-From-A-New-Perspective/blob/master/4_LinkedLists/day1.md)
+  * Project Assigned: [Data Visualization](https://github.com/blwatkins/Data-Structures-From-A-New-Perspective/blob/master/4_LinkedLists/project.md)
   * Project Due: [Sorting Objects](https://github.com/blwatkins/Data-Structures-From-A-New-Perspective/blob/master/3_Sorting/project.md)
 
 ### Wednesday
@@ -119,6 +120,9 @@
   * [Work Day](https://github.com/blwatkins/Data-Structures-From-A-New-Perspective/blob/master/4_LinkedLists/lab2.md)
 
 ## Week 7 - Stacks and Queues
+
+### Monday
+  * Project Due: [Data Visualization](https://github.com/blwatkins/Data-Structures-From-A-New-Perspective/blob/master/4_LinkedLists/project.md)
 
 ## Week 8 - Stacks and Queues
 
