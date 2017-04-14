@@ -1,10 +1,10 @@
 # Unit 2 - Algorithm Analysis
 
 ## Lectures
-  * [Analyzing Algorithms](day1.md)
-  * [Growth Rate and Asymptotic Analysis](day2.md)
-  * [Big-Oh Analysis](day3.md)
+  * [Analyzing Algorithms](https://github.com/blwatkins/Data-Structures-From-A-New-Perspective/blob/master/2_AlgorithmAnalysis/day1.md)
+  * [Growth Rate and Asymptotic Analysis](https://github.com/blwatkins/Data-Structures-From-A-New-Perspective/blob/master/2_AlgorithmAnalysis/day2.md)
+  * [Big-Oh Analysis](https://github.com/blwatkins/Data-Structures-From-A-New-Perspective/blob/master/2_AlgorithmAnalysis/day3.md)
 
-## [Lab](lab.md)
+## [Lab](https://github.com/blwatkins/Data-Structures-From-A-New-Perspective/blob/master/2_AlgorithmAnalysis/lab.md)
 
-## [Project](project.md)
+## [Project](https://github.com/blwatkins/Data-Structures-From-A-New-Perspective/blob/master/2_AlgorithmAnalysis/project.md)
