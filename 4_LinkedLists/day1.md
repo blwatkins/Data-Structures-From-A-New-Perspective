@@ -2,7 +2,7 @@
 
 ## What are the pros and cons of arrays?
   * How well do they perform the major functions of a data structure?
-    * Access, insert, delete, find, and sort?
+    * Access, insert, delete, find, and sort
 
 ## Lists
   * What is a list?
