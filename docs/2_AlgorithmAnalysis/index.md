@@ -5,6 +5,8 @@
   * [Growth Rate and Asymptotic Analysis](day2.md)
   * [Big-Oh Analysis](day3.md)
 
-## [Lab](lab.md)
+## Labs
+  * [Setting Up the Environment](lab.md)
 
-## [Project](project.md)
+## Project
+  * [Dynamic Artwork](project.md)

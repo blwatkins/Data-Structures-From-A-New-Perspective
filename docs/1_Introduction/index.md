@@ -8,6 +8,7 @@
   * [Basic Data Structures, Arrays and ArrayLists](day5.md)
   * [Homework Review](day6.md)
 
-## [Homework](homework.md)
+## Homework
+  * [Deleting Elements from an Array](homework.md)
 
 ## [Recommended Videos](videos.md)

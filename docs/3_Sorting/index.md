@@ -19,6 +19,7 @@
   * [Merge Sort Implementation](homework4.md)
   * [Empirical Analysis](homework5.md)
 
-## [Project](project.md)
+## Project
+  * [Sorting Objects](project.md)
 
 ## [Recommended Videos](videos.md)
