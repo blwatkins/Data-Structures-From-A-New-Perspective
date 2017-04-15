@@ -39,4 +39,5 @@
   * [GitHub](https://github.com/)
 
 [Previous: Welcome](day1.md)
+
 [Next: Git and GitHub](day3.md)
