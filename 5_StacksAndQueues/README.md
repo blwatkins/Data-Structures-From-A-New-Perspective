@@ -7,3 +7,7 @@
   * [Queues](https://github.com/blwatkins/Data-Structures-From-A-New-Perspective/blob/master/5_StacksAndQueues/day4.md)
   * [Queues in Java](https://github.com/blwatkins/Data-Structures-From-A-New-Perspective/blob/master/5_StacksAndQueues/day5.md)
   * [Homework Review](https://github.com/blwatkins/Data-Structures-From-A-New-Perspective/blob/master/5_StacksAndQueues/day6.md)
+
+## Homework
+  * [Stack Implementation](https://github.com/blwatkins/Data-Structures-From-A-New-Perspective/blob/master/5_StacksAndQueues/homework1.md)
+  * [Queue Implementation](https://github.com/blwatkins/Data-Structures-From-A-New-Perspective/blob/master/5_StacksAndQueues/homework2.md) 
