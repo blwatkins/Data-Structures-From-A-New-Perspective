@@ -1,9 +1,9 @@
 # Unit 6 - Day 4: AVL Trees
 
-## The flaw in Binary Search Trees
+## The Flaw in Binary Search Trees
   * They can become unbalanced
 
-## What is an AVL Tree
+## What is an AVL Tree?
   * Self-balancing binary search tree
   * How does it work?
 
