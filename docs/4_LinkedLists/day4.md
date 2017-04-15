@@ -12,3 +12,7 @@
       * With recursion
       * Without recursion
     * Getting an element from the list
+
+[Previous: JSON](lab1.md)
+
+[Next: Implementing a Linked List, Day 2](day5.md)

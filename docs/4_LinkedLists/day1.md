@@ -9,3 +9,5 @@
     * Finite, ordered collection of items
   * What are the advantages to using a list?
   * What are the drawbacks?
+
+[Next: Data Visualization](project.md)

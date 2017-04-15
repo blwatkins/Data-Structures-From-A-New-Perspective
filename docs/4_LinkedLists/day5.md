@@ -3,3 +3,6 @@
 ## Adding an Element
   * How do we add an element at the beginning or middle of the list?
   
+[Previous: Implementing a Linked List](day4.md)
+
+[Next: Deleting Elements from a Linked List](homework.md)

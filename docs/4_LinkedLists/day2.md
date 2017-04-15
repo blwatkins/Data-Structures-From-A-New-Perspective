@@ -15,3 +15,6 @@
   * Doubly
   * Circular
   
+[Previous: Data Visualization](project.md)
+
+[Next: Linked Lists in Java](day3.md)

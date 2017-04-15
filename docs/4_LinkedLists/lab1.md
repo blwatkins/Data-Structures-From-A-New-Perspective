@@ -13,3 +13,7 @@
   * `JSONArray`
   * Loading in data
   * Accessing attributes of a `JSONObject`
+
+[Previous: Linked Lists in Java](day3.md)
+
+[Next: Implementing a Linked List](day4.md)

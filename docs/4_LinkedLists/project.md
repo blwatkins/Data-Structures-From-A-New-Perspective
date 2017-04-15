@@ -9,3 +9,7 @@
   * Each data point should have at least 3 attributes
   * Data should be stored in an instance of Java's `LinkedList` class
   * Users should be able to select a data point and see its information as text on the screen
+
+[Previous: Lists](day1.md)
+
+[Next: Linked Lists](day2.md)
