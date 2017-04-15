@@ -27,6 +27,6 @@
 
 ## [Array Example](https://github.com/blwatkins/Data-Structures-From-A-New-Perspective/tree/master/1_Introduction/Day4/Arrays)
 
-[Previous: Git and GitHub](day4.md)
+[Previous: Git and GitHub](day3.md)
 
 [Next: Deleting Elements from an Array](homework.md)
