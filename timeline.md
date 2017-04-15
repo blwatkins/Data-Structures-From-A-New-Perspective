@@ -189,6 +189,19 @@
   * Lesson: [Trees in Java](https://github.com/blwatkins/Data-Structures-From-A-New-Perspective/blob/master/6_Trees/day7.md)
   * Homework Due: [Traversing a Binary Search Tree](https://github.com/blwatkins/Data-Structures-From-A-New-Perspective/blob/master/6_Trees/homework.md)
 
-## Week 12 - Hash Tables
+### Wednesday
+  * Lesson: [Hash Tables](https://github.com/blwatkins/Data-Structures-From-A-New-Perspective/blob/master/7_HashTablesAndHeaps/day1.md)
 
-## Week 13 - Heaps
+### Friday
+  * Lesson: [Hashing](https://github.com/blwatkins/Data-Structures-From-A-New-Perspective/blob/master/7_HashTablesAndHeaps/day2.md)
+
+## Week 12 - Hash Tables and Heaps
+
+### Monday
+  * Lesson: [Hash Table Implementation](https://github.com/blwatkins/Data-Structures-From-A-New-Perspective/blob/master/7_HashTablesAndHeaps/day3.md)
+
+### Wednesday
+  * Lesson: [Hash Tables in Java](https://github.com/blwatkins/Data-Structures-From-A-New-Perspective/blob/master/7_HashTablesAndHeaps/day4.md)
+
+### Friday
+  * Lesson: [Heaps](https://github.com/blwatkins/Data-Structures-From-A-New-Perspective/blob/master/7_HashTablesAndHeaps/day5.md)
