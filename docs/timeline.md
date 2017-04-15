@@ -150,7 +150,7 @@ Based on a Monday, Wednesday, Friday class Schedule
 
 ### Friday
   * Lesson: [Homework Review](5_StacksAndQueues/day6.md)
-  * Homework Due: [Queue Implementation](h5_StacksAndQueues/homework2.md)
+  * Homework Due: [Queue Implementation](5_StacksAndQueues/homework2.md)
 
 ### Lab
   * [Work Day](5_StacksAndQueues/lab2.md)

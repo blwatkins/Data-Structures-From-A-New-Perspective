@@ -1,6 +1,6 @@
 # Unit 5 - Day 2: Stacks in Java
 
-## `Stack` Class
+## Stack Class
   * Instantiating a `Stack` object
   * `void push(E item);`
   * `E pop();`
