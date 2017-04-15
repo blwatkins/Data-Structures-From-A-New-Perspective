@@ -1,6 +1,6 @@
 # Unit 5 - Day 5: Queues in Java
 
-## `LinkedList` Class as a Queue
+## LinkedList Class as a Queue
   * `boolean add(E item);`
   * `E remove();`
 
