@@ -127,9 +127,11 @@
 
 ### Wednesday
   * Lesson: [Stacks in Java](https://github.com/blwatkins/Data-Structures-From-A-New-Perspective/blob/master/5_StacksAndQueues/day2.md)
+  * Homework Assigned: [Stack Implementation](https://github.com/blwatkins/Data-Structures-From-A-New-Perspective/blob/master/5_StacksAndQueues/homework1.md)
 
 ### Friday
   * Lesson: [Homework Review](https://github.com/blwatkins/Data-Structures-From-A-New-Perspective/blob/master/5_StacksAndQueues/day3.md)
+  * Homework Due: [Stack Implementation](https://github.com/blwatkins/Data-Structures-From-A-New-Perspective/blob/master/5_StacksAndQueues/homework1.md)
 
 ## Week 8 - Stacks and Queues
 
@@ -138,9 +140,11 @@
 
 ### Wednesday
   * Lesson: [Queues in Java](https://github.com/blwatkins/Data-Structures-From-A-New-Perspective/blob/master/5_StacksAndQueues/day5.md)
+  * Homework Assigned: [Queue Implementation](https://github.com/blwatkins/Data-Structures-From-A-New-Perspective/blob/master/5_StacksAndQueues/homework2.md)
 
 ### Friday
   * Lesson: [Homework Review](https://github.com/blwatkins/Data-Structures-From-A-New-Perspective/blob/master/5_StacksAndQueues/day6.md)
+  * Homework Due: [Queue Implementation](https://github.com/blwatkins/Data-Structures-From-A-New-Perspective/blob/master/5_StacksAndQueues/homework2.md)
 
 ## Week 9 - Trees
 
