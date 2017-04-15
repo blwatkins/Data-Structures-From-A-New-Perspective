@@ -18,3 +18,5 @@
   * What is the overall structure of a hash table?
     * Buckets
     * Key-value pairs
+
+[Next: Hashing](day2.md)

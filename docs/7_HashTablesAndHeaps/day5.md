@@ -13,3 +13,5 @@
 
 ## Implementing a Heap and Heap Sort
   * Array style implementation
+
+[Previous: Hash Tables in Java](day4.md)

@@ -6,3 +6,7 @@
   * `Collection<V> values();`
   * `Set<K> keySet();`
   * `V get(Object key);`
+
+[Previous: Hash Table Implementation](day3.md)
+
+[Next: Heaps](day5.md)

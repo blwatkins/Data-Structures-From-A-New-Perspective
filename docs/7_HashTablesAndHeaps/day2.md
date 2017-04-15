@@ -9,3 +9,7 @@
 
 ## Algorithm Analysis
   * How could hash collisions effect the efficiency of the hash table?
+
+[Previous: Hash Tables](day1.md)
+
+[Next: Hash Table Implementation](day3.md)
