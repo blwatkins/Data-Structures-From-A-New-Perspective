@@ -8,3 +8,6 @@
   * [Balancing an AVL Tree](https://github.com/blwatkins/Data-Structures-From-A-New-Perspective/blob/master/6_Trees/day5.md)
   * [AVL Tree Implementation](https://github.com/blwatkins/Data-Structures-From-A-New-Perspective/blob/master/6_Trees/day6.md)
   * [Trees in Java](https://github.com/blwatkins/Data-Structures-From-A-New-Perspective/blob/master/6_Trees/day7.md)
+
+## Homework
+  * [Traversing a Binary Search Tree](https://github.com/blwatkins/Data-Structures-From-A-New-Perspective/blob/master/6_Trees/homework.md)

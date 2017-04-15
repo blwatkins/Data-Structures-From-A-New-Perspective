@@ -164,6 +164,7 @@
 
 ### Friday
   * Lesson: [Traversing Binary Search Trees](https://github.com/blwatkins/Data-Structures-From-A-New-Perspective/blob/master/6_Trees/day3.md)
+  * Homework Assigned: [Traversing a Binary Search Tree](https://github.com/blwatkins/Data-Structures-From-A-New-Perspective/blob/master/6_Trees/homework.md)
 
 ## Week 10 - Trees
 
@@ -180,6 +181,7 @@
 
 ### Monday
   * Lesson: [Trees in Java](https://github.com/blwatkins/Data-Structures-From-A-New-Perspective/blob/master/6_Trees/day7.md)
+  * Homework Due: [Traversing a Binary Search Tree](https://github.com/blwatkins/Data-Structures-From-A-New-Perspective/blob/master/6_Trees/homework.md)
 
 ## Week 12 - Hash Tables
 
