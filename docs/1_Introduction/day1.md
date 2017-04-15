@@ -24,4 +24,4 @@
   * [Eclipse IDE](https://eclipse.org/)
   * [IntelliJ IDE](https://www.jetbrains.com/idea/)
 
-[Next Page](day2.md)
+[Next: Introduction to the UNIX Shell](day2.md)
