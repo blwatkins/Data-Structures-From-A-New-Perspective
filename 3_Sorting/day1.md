@@ -14,4 +14,4 @@
 
 ## [Sorting Arrays Example](https://github.com/blwatkins/Data-Structures-From-A-New-Perspective/blob/master/3_Sorting/Day1/SortingArrays/src/SortingArrays.java)
 
-<img src="https://github.com/blwatkins/Data-Structures-From-A-New-Perspective/blob/master/3_Sorting/Images/day1_sorting-arrays.png" width="300" height="180">
+<img src="https://github.com/blwatkins/Data-Structures-From-A-New-Perspective/blob/master/3_Sorting/Images/day1_sorting-arrays.png" alt-text="Sorting Arrays Example">
