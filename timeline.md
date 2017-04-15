@@ -123,6 +123,7 @@
 
 ### Monday
   * Lesson: [Stacks](https://github.com/blwatkins/Data-Structures-From-A-New-Perspective/blob/master/5_StacksAndQueues/day1.md)
+  * Project Assigned: [Self-Solving Maze](https://github.com/blwatkins/Data-Structures-From-A-New-Perspective/blob/master/5_StacksAndQueues/project.md)
   * Project Due: [Data Visualization](https://github.com/blwatkins/Data-Structures-From-A-New-Perspective/blob/master/4_LinkedLists/project.md)
 
 ### Wednesday
@@ -132,6 +133,9 @@
 ### Friday
   * Lesson: [Homework Review](https://github.com/blwatkins/Data-Structures-From-A-New-Perspective/blob/master/5_StacksAndQueues/day3.md)
   * Homework Due: [Stack Implementation](https://github.com/blwatkins/Data-Structures-From-A-New-Perspective/blob/master/5_StacksAndQueues/homework1.md)
+
+### Lab
+  * [CSV](https://github.com/blwatkins/Data-Structures-From-A-New-Perspective/blob/master/5_StacksAndQueues/lab1.md)
 
 ## Week 8 - Stacks and Queues
 
@@ -146,7 +150,13 @@
   * Lesson: [Homework Review](https://github.com/blwatkins/Data-Structures-From-A-New-Perspective/blob/master/5_StacksAndQueues/day6.md)
   * Homework Due: [Queue Implementation](https://github.com/blwatkins/Data-Structures-From-A-New-Perspective/blob/master/5_StacksAndQueues/homework2.md)
 
+### Lab
+  * [Work Day](https://github.com/blwatkins/Data-Structures-From-A-New-Perspective/blob/master/5_StacksAndQueues/lab2.md)
+
 ## Week 9 - Trees
+
+### Monday
+  * Project Due: [Self-Solving Maze](https://github.com/blwatkins/Data-Structures-From-A-New-Perspective/blob/master/5_StacksAndQueues/project.md)
 
 ## Week 10 - Trees
 
