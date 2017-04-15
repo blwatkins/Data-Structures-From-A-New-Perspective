@@ -1,5 +1,4 @@
 // Brittni Watkins
-// 15 March 2017
 // Sorting Arrays Lecture Example
 
 import processing.core.*;
