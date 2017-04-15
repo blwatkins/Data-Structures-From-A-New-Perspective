@@ -18,3 +18,5 @@
 
 ## Project
   * [Self-Solving Maze](https://github.com/blwatkins/Data-Structures-From-A-New-Perspective/blob/master/5_StacksAndQueues/project.md)
+
+## [Recommended Videos](https://github.com/blwatkins/Data-Structures-From-A-New-Perspective/blob/master/5_StacksAndQueues/videos.md)
