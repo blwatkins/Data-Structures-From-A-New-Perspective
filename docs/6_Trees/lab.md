@@ -14,3 +14,7 @@
   * Loading XML into Processing
   * Accessing child nodes of an `XML` object
   * Accessing attributes of an `XML` object
+
+[Previous: Traversing a Binary Search Tree](homework.md)
+
+[Next: AVL Trees](day4.md)

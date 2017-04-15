@@ -19,3 +19,7 @@
     * Right Left
   * Case 4
     * Right Right
+
+[Previous: XML](lab.md)
+
+[Next: Balancing an AVL Tree](day5.md)

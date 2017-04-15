@@ -20,3 +20,5 @@
   * level
   * subtree
   * degree 
+
+[Next: Binary Search Trees](day2.md)

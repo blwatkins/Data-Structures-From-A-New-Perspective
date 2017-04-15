@@ -5,3 +5,7 @@ Using the binary search tree implementation from the [Binary Search Trees](day2.
   * Implements all three traversal methods
     * In-order, pre-order, and post-order
   * Uses user input to determine which traversal algorithm should be used.
+
+[Previous: Traversing Binary Search Trees](day3.md)
+
+[Next: XML](lab.md)

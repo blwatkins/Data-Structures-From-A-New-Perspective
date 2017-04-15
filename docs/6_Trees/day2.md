@@ -9,3 +9,7 @@
 
 ## Implementing a Binary Search Tree
   * Adding nodes
+
+[Previous: Graphs and Trees](day1.md)
+
+[Next: Traversing Binary Search Trees](day3.md)

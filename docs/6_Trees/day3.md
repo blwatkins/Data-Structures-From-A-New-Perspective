@@ -16,3 +16,7 @@
 ## Post-Order Traversal
   * left child, right child, root
   * pen and paper implementation
+
+[Previous: Binary Search Trees](day2.md)
+
+[Next: Traversing a Binary Search Tree](homework.md)
