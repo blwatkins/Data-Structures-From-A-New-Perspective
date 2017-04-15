@@ -166,6 +166,9 @@
   * Lesson: [Traversing Binary Search Trees](https://github.com/blwatkins/Data-Structures-From-A-New-Perspective/blob/master/6_Trees/day3.md)
   * Homework Assigned: [Traversing a Binary Search Tree](https://github.com/blwatkins/Data-Structures-From-A-New-Perspective/blob/master/6_Trees/homework.md)
 
+### Lab
+  * [XML](https://github.com/blwatkins/Data-Structures-From-A-New-Perspective/blob/master/6_Trees/lab.md)
+
 ## Week 10 - Trees
 
 ### Monday
@@ -176,6 +179,9 @@
 
 ### Friday
   * Lesson: [AVL Tree Implementation](https://github.com/blwatkins/Data-Structures-From-A-New-Perspective/blob/master/6_Trees/day6.md)
+
+### Lab
+  * No lab this week
 
 ## Week 11 - Trees and Hash Tables
 
