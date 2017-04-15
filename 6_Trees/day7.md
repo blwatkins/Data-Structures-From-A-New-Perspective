@@ -1,7 +1,7 @@
 # Unit 6 - Day 7: Trees in Java
 
-## Tree Map Class
-  * Implementing a Tree Map
+## `TreeMap` Class
+  * Implementing a `TreeMap` object
   * `V put(K key, V value);`
   * `Collection<V> values();`
   * `Set<K> keySet();`

@@ -1,7 +1,7 @@
 # Unit 4 - Day 3: Linked Lists in Java
 
-## Linked List Class
-  * Instantiating a linked list
+## `LinkedList` Class
+  * Instantiating a `LinkedList` object
   * Adding an element
   * Accessing an element
   * Removing an element
