@@ -11,3 +11,7 @@
 ## Application of Algorithm Analysis
   * Comparison of basic searching algorithms
     * Binary search vs. Sequential seach
+
+[Previous: Growth Rate and Asymptotic Analysis](day2.md)
+
+[Next: Setting up the Environment](lab.md)

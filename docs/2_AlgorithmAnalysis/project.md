@@ -26,3 +26,7 @@
 # [Solution](https://github.com/blwatkins/Data-Structures-From-A-New-Perspective/tree/master/2_AlgorithmAnalysis/Project/Solution/src)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/s6jCsv2xJ_s" frameborder="0" allowfullscreen></iframe>
+
+[Previous: Analyzing Algorithms](day1.md)
+
+[Next: Growth Rate and Asymptotic Analysis](day2.md)

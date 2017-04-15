@@ -8,3 +8,7 @@
   * Big-Oh Analysis (Upper Bound)
   * Big-Omega Analysis (Lower Bound)
   * Big-Theta Analysis
+
+[Previous: Dynamic Artwork](project.md)
+
+[Next: Big-Oh Analysis](day3.md)

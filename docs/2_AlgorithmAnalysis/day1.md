@@ -7,3 +7,5 @@
     * Basic operations
       * AND, OR, NOT, +, -, <, >, ==, =
   * How do we compare the efficiency of different algorithms that solve the same problem?
+
+[Next: Dynamic Artwork](project.md)
