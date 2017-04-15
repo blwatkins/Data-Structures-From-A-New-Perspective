@@ -39,11 +39,15 @@ public class Book {
         p.ellipse(x, y, size, size);
         p.textAlign(p.CENTER);
         p.fill(0);
-        p.text(text, x, y + maxSize / 2 + 10);
+        p.text(text, x, y + maxSize / 2);
     }
 
     public String getTitle() {
         return title;
+    }
+
+    public int getYear() {
+        return year;
     }
 
 }

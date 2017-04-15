@@ -18,28 +18,38 @@ import java.io.IOException;
 import java.util.Arrays;
 
 public class SortingObjects extends PApplet {
-    String[] titles = {"The Hunchback of Notre Dame", "Pride and Prejudice", "Don Quixote", "Wuthering Heights",
+    private String[] titles = {"The Hunchback of Notre Dame", "Pride and Prejudice", "Don Quixote", "Wuthering Heights",
             "To Kill a Mockingbird", "Brave New World", "A Tale of Two Cities"};
-    String[] authors = {"Victor Hugo", "Jane Austen", "Miguel de Cervantes Saavedra", "Emily Bronte", "Harper Lee",
+    private String[] authors = {"Victor Hugo", "Jane Austen", "Miguel de Cervantes Saavedra", "Emily Bronte", "Harper Lee",
             "Aldous Huxley", "Charles Dickens"};
-    int[] years = {1831, 1813, 1605, 1847, 1960, 1932, 1859};
+    private int[] years = {1831, 1813, 1605, 1847, 1960, 1932, 1859};
 
-    Book[] books;
-    Book[] booksByTitle;
+    private Book[] books;
+    private Book[] booksByTitle;
+    private Book[] booksByYear;
 
-    int spacing;
+    private int xSpacing;
+    private int ySpacing;
 
     public void setup() {
-        spacing = width / titles.length;
+        xSpacing = width / titles.length;
+        ySpacing = height / 4;
+
         books = createBooks(titles, authors, years);
+
         booksByTitle = Arrays.copyOf(books, books.length);
         Arrays.sort(booksByTitle, BookComparator.Title);
+
+        booksByYear = Arrays.copyOf(books, books.length);
+        Arrays.sort(booksByYear, BookComparator.Year);
     }
 
     public void draw() {
         background(200);
-        displayBooks(books, spacing / 2);
-        displayBooks(booksByTitle, spacing * 2);
+        translate(0, (ySpacing - 25) / 2);
+        displayBooks(books, 0, "title");
+        displayBooks(booksByTitle,  ySpacing, "title");
+        displayBooks(booksByYear, 2 * ySpacing, "year");
     }
 
     public void settings() {
@@ -50,16 +60,37 @@ public class SortingObjects extends PApplet {
         Book[] books = new Book[titles.length];
 
         for (int i = 0; i < books.length; i++) {
-            books[i] = new Book(this, titles[i], authors[i], years[i], spacing);
+            books[i] = new Book(this, titles[i], authors[i], years[i], min(xSpacing - 25, ySpacing - 25));
         }
 
         return books;
     }
 
-    private void displayBooks(Book[] books, int y) {
+    private void displayBooks(Book[] books, int y, String display) {
 
-        for (int i = 0; i < books.length; i++) {
-            books[i].display((i * spacing) + (spacing / 2), y, spacing, books[i].getTitle());
+        switch (display) {
+            case "title":
+
+                for (int i = 0; i < books.length; i++) {
+                    books[i].display((i * xSpacing) + (xSpacing / 2), y, ySpacing, books[i].getTitle());
+                }
+
+                break;
+            case "year":
+
+                for (int i = 0; i < books.length; i++) {
+                    books[i].display((i * xSpacing) + (xSpacing / 2), y, ySpacing, str(books[i].getYear()));
+                }
+
+                break;
+
+            default:
+
+                for (int i = 0; i < books.length; i++) {
+                    books[i].display((i * xSpacing) + (xSpacing / 2), y, ySpacing, books[i].getTitle());
+                }
+
+                break;
         }
 
     }
