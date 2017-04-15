@@ -195,6 +195,9 @@
 ### Friday
   * Lesson: [Hashing](https://github.com/blwatkins/Data-Structures-From-A-New-Perspective/blob/master/7_HashTablesAndHeaps/day2.md)
 
+### Lab
+  * No lab this week
+
 ## Week 12 - Hash Tables and Heaps
 
 ### Monday
@@ -205,3 +208,6 @@
 
 ### Friday
   * Lesson: [Heaps](https://github.com/blwatkins/Data-Structures-From-A-New-Perspective/blob/master/7_HashTablesAndHeaps/day5.md)
+
+### Lab
+  * No lab this week
