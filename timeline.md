@@ -156,11 +156,30 @@
 ## Week 9 - Trees
 
 ### Monday
+  * Lesson: [Graphs and Trees](https://github.com/blwatkins/Data-Structures-From-A-New-Perspective/blob/master/6_Trees/day1.md)
   * Project Due: [Self-Solving Maze](https://github.com/blwatkins/Data-Structures-From-A-New-Perspective/blob/master/5_StacksAndQueues/project.md)
+
+### Wednesday
+  * Lesson: [Binary Search Trees](https://github.com/blwatkins/Data-Structures-From-A-New-Perspective/blob/master/6_Trees/day2.md)
+
+### Friday
+  * Lesson: [Traversing Binary Search Trees](https://github.com/blwatkins/Data-Structures-From-A-New-Perspective/blob/master/6_Trees/day3.md)
 
 ## Week 10 - Trees
 
-## Week 11 - Hash Tables
+### Monday
+  * Lessson: [AVL Trees](https://github.com/blwatkins/Data-Structures-From-A-New-Perspective/blob/master/6_Trees/day4.md)
+
+### Wednesday
+  * Lesson: [Balancing an AVL Tree](https://github.com/blwatkins/Data-Structures-From-A-New-Perspective/blob/master/6_Trees/day5.md)
+
+### Friday
+  * Lesson: [AVL Tree Implementation]()
+
+## Week 11 - Trees and Hash Tables
+
+### Monday
+  * Lesson: [Trees in Java]()
 
 ## Week 12 - Hash Tables
 
