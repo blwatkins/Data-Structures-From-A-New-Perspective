@@ -11,3 +11,5 @@
   * Push
   * Pop
   * Peek
+
+[Next: Self-Solving Maze](project.md)

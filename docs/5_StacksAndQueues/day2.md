@@ -9,3 +9,7 @@
 
 ## Class Resources
   * [Stack Documentation](https://docs.oracle.com/javase/7/docs/api/java/util/Stack.html)
+
+[Previous: Self-Solving Maze](project.md)
+
+[Next: Stack Implementation](homework1.md)

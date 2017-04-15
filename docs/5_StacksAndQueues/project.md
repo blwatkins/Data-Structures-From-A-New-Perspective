@@ -10,3 +10,7 @@ Using the Processing library in a Java IDE, create a self-solving maze.
   * Coordinates of the traveler should be contained within the stack
   * The program should solve the maze by pushing and poping coordinate pairs to and from the stack
   * User input to restart the maze
+
+[Previous: Stacks](day1.md)
+
+[Next: Stacks in Java](day2.md)
