@@ -8,7 +8,7 @@
   * How does it work?
 
 ## What does it mean for a tree to become "un-balanced"?
-  * For every node in a tree, the difference in height between the left and right subtrees is not greater than 1.
+  * For every node in a tree, the difference in height between the left and right subtrees is greater than 1.
 
 ## Cases of Un-Balance
   * Case 1
