@@ -11,3 +11,7 @@
 ## How do we sort an array of objects in Processing/Java?
   * Creating a `Comparator`
   * Defining `compare(...)` functions
+
+## [Sorting Arrays Example](https://github.com/blwatkins/Data-Structures-From-A-New-Perspective/blob/master/3_Sorting/Day1/SortingArrays/src/SortingArrays.java)
+
+<img src="https://github.com/blwatkins/Data-Structures-From-A-New-Perspective/blob/master/3_Sorting/Images/day1_sorting-arrays.png" width="300" height="180">
