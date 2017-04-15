@@ -18,3 +18,7 @@
 ## Class Resources
   * [Sorting Algorithm Animations](https://www.toptal.com/developers/sorting-algorithms)
   * [Sorting Algorithm Comparisons](https://www.cs.usfca.edu/~galles/visualization/ComparisonSort.html)
+
+[Previous: Visualizing Text](homework1.md)
+
+[Next: Selection Sort Implementation](homework2.md)

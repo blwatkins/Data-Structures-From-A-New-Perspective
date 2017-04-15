@@ -11,3 +11,7 @@
   * Worst case
   * Average case
   * The cost of chosing a good pivot
+
+[Previous: Selection Sort Implementation](homework2.md)
+
+[Next: Quick Sort Implementation](homework3.md)

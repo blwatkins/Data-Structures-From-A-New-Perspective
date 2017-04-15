@@ -11,3 +11,7 @@
   * Each data point should have at least 3 attributes
   * User interaction changes which attribute the data is sorted by
   * Each data point's position on the screen should correspond to its current position in the data structure
+
+[Previous: Sorting in Java](day1.md)
+
+[Next: Visualizing Text](homework1.md)
