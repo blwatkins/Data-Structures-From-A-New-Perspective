@@ -87,7 +87,7 @@
 ### Lab
   * [Work Day](https://github.com/blwatkins/Data-Structures-From-A-New-Perspective/blob/master/3_Sorting/lab2.md)
 
-## Week 5 - Linked Lists
+## Week 6 - Linked Lists
 
 ### Monday
   * Lesson: [Lists](https://github.com/blwatkins/Data-Structures-From-A-New-Perspective/blob/master/4_LinkedLists/day1.md)
@@ -103,7 +103,7 @@
 ### Lab
   * [JSON](https://github.com/blwatkins/Data-Structures-From-A-New-Perspective/blob/master/4_LinkedLists/lab1.md)
 
-## Week 6 - Linked Lists
+## Week 7 - Linked Lists
 
 ### Monday
   * Lesson: [Implementing a Linked List](https://github.com/blwatkins/Data-Structures-From-A-New-Perspective/blob/master/4_LinkedLists/day4.md)
@@ -119,7 +119,7 @@
 ### Lab
   * [Work Day](https://github.com/blwatkins/Data-Structures-From-A-New-Perspective/blob/master/4_LinkedLists/lab2.md)
 
-## Week 7 - Stacks and Queues
+## Week 8 - Stacks and Queues
 
 ### Monday
   * Lesson: [Stacks](https://github.com/blwatkins/Data-Structures-From-A-New-Perspective/blob/master/5_StacksAndQueues/day1.md)
@@ -137,7 +137,7 @@
 ### Lab
   * [CSV](https://github.com/blwatkins/Data-Structures-From-A-New-Perspective/blob/master/5_StacksAndQueues/lab1.md)
 
-## Week 8 - Stacks and Queues
+## Week 9 - Stacks and Queues
 
 ### Monday
   * Lesson: [Queues](https://github.com/blwatkins/Data-Structures-From-A-New-Perspective/blob/master/5_StacksAndQueues/day4.md)
@@ -153,7 +153,7 @@
 ### Lab
   * [Work Day](https://github.com/blwatkins/Data-Structures-From-A-New-Perspective/blob/master/5_StacksAndQueues/lab2.md)
 
-## Week 9 - Trees
+## Week 10 - Trees
 
 ### Monday
   * Lesson: [Graphs and Trees](https://github.com/blwatkins/Data-Structures-From-A-New-Perspective/blob/master/6_Trees/day1.md)
@@ -169,7 +169,7 @@
 ### Lab
   * [XML](https://github.com/blwatkins/Data-Structures-From-A-New-Perspective/blob/master/6_Trees/lab.md)
 
-## Week 10 - Trees
+## Week 11 - Trees
 
 ### Monday
   * Lessson: [AVL Trees](https://github.com/blwatkins/Data-Structures-From-A-New-Perspective/blob/master/6_Trees/day4.md)
@@ -183,7 +183,7 @@
 ### Lab
   * No lab this week
 
-## Week 11 - Trees and Hash Tables
+## Week 12 - Trees and Hash Tables
 
 ### Monday
   * Lesson: [Trees in Java](https://github.com/blwatkins/Data-Structures-From-A-New-Perspective/blob/master/6_Trees/day7.md)
@@ -198,7 +198,7 @@
 ### Lab
   * No lab this week
 
-## Week 12 - Hash Tables and Heaps
+## Week 13 - Hash Tables and Heaps
 
 ### Monday
   * Lesson: [Hash Table Implementation](https://github.com/blwatkins/Data-Structures-From-A-New-Perspective/blob/master/7_HashTablesAndHeaps/day3.md)
