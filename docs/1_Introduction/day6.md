@@ -5,3 +5,5 @@
   2. Have each group discuss their solutions amongst themselves
   3. Each group should choose their favorite solution
   4. Have one person from each group come up and present their code
+
+[Previous: Basic Data Structures, Arrays and ArrayLists](day5.md)

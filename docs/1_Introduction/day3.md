@@ -22,3 +22,7 @@
 
 ## Additional Resources
   * [Git Documentation](https://git-scm.com/docs)
+
+[Previous: Introduction to the UNIX Shell](day2.md)
+
+[Next: Basic Data Structures, Structs and Arrays](day4.md)
