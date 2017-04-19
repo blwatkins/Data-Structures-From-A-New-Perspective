@@ -50,4 +50,12 @@ public class Book {
         return year;
     }
 
+    public String getAuthor() {
+        return author;
+    }
+
+    public int getSize() {
+        return size;
+    }
+
 }

@@ -2,18 +2,6 @@
 // Sorting Objects Lecture Example
 
 import processing.core.*;
-import processing.data.*;
-import processing.event.*;
-import processing.opengl.*;
-
-import java.util.HashMap;
-import java.util.ArrayList;
-import java.io.File;
-import java.io.BufferedReader;
-import java.io.PrintWriter;
-import java.io.InputStream;
-import java.io.OutputStream;
-import java.io.IOException;
 
 import java.util.Arrays;
 
@@ -27,13 +15,15 @@ public class SortingObjects extends PApplet {
     private Book[] books;
     private Book[] booksByTitle;
     private Book[] booksByYear;
+    private Book[] booksByAuthor;
+    private Book[] booksBySize;
 
     private int xSpacing;
     private int ySpacing;
 
     public void setup() {
         xSpacing = width / titles.length;
-        ySpacing = height / 4;
+        ySpacing = height / 5;
 
         books = createBooks(titles, authors, years);
 
@@ -42,14 +32,22 @@ public class SortingObjects extends PApplet {
 
         booksByYear = Arrays.copyOf(books, books.length);
         Arrays.sort(booksByYear, BookComparator.Year);
+
+        booksByAuthor = Arrays.copyOf(books, books.length);
+        Arrays.sort(booksByAuthor, BookComparator.Author);
+
+        booksBySize = Arrays.copyOf(books, books.length);
+        Arrays.sort(booksBySize, BookComparator.Size);
     }
 
     public void draw() {
         background(200);
-        translate(0, (ySpacing - 25) / 2);
+        translate(0, (ySpacing - 30) / 2);
         displayBooks(books, 0, "title");
         displayBooks(booksByTitle,  ySpacing, "title");
         displayBooks(booksByYear, 2 * ySpacing, "year");
+        displayBooks(booksByAuthor, 3 * ySpacing, "author");
+        displayBooks(booksBySize, 4 * ySpacing, "size");
     }
 
     public void settings() {
@@ -60,7 +58,7 @@ public class SortingObjects extends PApplet {
         Book[] books = new Book[titles.length];
 
         for (int i = 0; i < books.length; i++) {
-            books[i] = new Book(this, titles[i], authors[i], years[i], min(xSpacing - 25, ySpacing - 25));
+            books[i] = new Book(this, titles[i], authors[i], years[i], min(xSpacing - 40, ySpacing - 40));
         }
 
         return books;
@@ -69,17 +67,35 @@ public class SortingObjects extends PApplet {
     private void displayBooks(Book[] books, int y, String display) {
 
         switch (display) {
+
             case "title":
 
                 for (int i = 0; i < books.length; i++) {
-                    books[i].display((i * xSpacing) + (xSpacing / 2), y, ySpacing, books[i].getTitle());
+                    books[i].display((i * xSpacing) + (xSpacing / 2), y, ySpacing - 30, books[i].getTitle());
                 }
 
                 break;
+
             case "year":
 
                 for (int i = 0; i < books.length; i++) {
-                    books[i].display((i * xSpacing) + (xSpacing / 2), y, ySpacing, str(books[i].getYear()));
+                    books[i].display((i * xSpacing) + (xSpacing / 2), y, ySpacing - 30, str(books[i].getYear()));
+                }
+
+                break;
+
+            case "author":
+
+                for (int i = 0; i < books.length; i++) {
+                    books[i].display((i * xSpacing) + (xSpacing / 2), y, ySpacing - 30, books[i].getAuthor());
+                }
+
+                break;
+
+            case "size":
+
+                for (int i = 0; i < books.length; i++) {
+                    books[i].display((i * xSpacing) + (xSpacing / 2), y, ySpacing - 30, str(books[i].getSize()));
                 }
 
                 break;
@@ -87,14 +103,14 @@ public class SortingObjects extends PApplet {
             default:
 
                 for (int i = 0; i < books.length; i++) {
-                    books[i].display((i * xSpacing) + (xSpacing / 2), y, ySpacing, books[i].getTitle());
+                    books[i].display((i * xSpacing) + (xSpacing / 2), y, ySpacing - 30, books[i].getTitle());
                 }
 
                 break;
+
         }
 
     }
-
 
     static public void main(String[] passedArgs) {
         String[] appletArgs = new String[] { "SortingObjects" };
@@ -106,5 +122,4 @@ public class SortingObjects extends PApplet {
         }
 
     }
-
 }
