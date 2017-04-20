@@ -18,14 +18,14 @@
 
 ### Monday
   * Lesson: [Basic Data Structures, Structs and Arrays](https://github.com/blwatkins/Data-Structures-From-A-New-Perspective/blob/master/1_Introduction/day4.md)
-  * Homework Assigned: [Deleting Elements from an Array](https://github.com/blwatkins/Data-Structures-From-A-New-Perspective/blob/master/1_Introduction/homework.md)
+  * Homework Assigned: [Deleting Elements from an Array](https://github.com/blwatkins/Data-Structures-From-A-New-Perspective/blob/master/1_Introduction/homework1.md)
 
 ### Wednesday
   * Lesson: [Basic Data Structures, Arrays and ArrayLists](https://github.com/blwatkins/Data-Structures-From-A-New-Perspective/blob/master/1_Introduction/day5.md)
 
 ### Friday
   * Lesson: [Homework Review](https://github.com/blwatkins/Data-Structures-From-A-New-Perspective/blob/master/1_Introduction/day6.md)
-  * Homework Due: [Deleting Elements from an Array](https://github.com/blwatkins/Data-Structures-From-A-New-Perspective/blob/master/1_Introduction/homework.md)
+  * Homework Due: [Deleting Elements from an Array](https://github.com/blwatkins/Data-Structures-From-A-New-Perspective/blob/master/1_Introduction/homework1.md)
 
 ### Lab
   * No lab this week
