@@ -42,7 +42,7 @@ public class SortingObjects extends PApplet {
 
     public void draw() {
         background(200);
-        translate(0, (ySpacing - 30) / 2);
+        translate(0, (ySpacing - 55) / 2);
         displayBooks(books, 0, "title");
         displayBooks(booksByTitle,  ySpacing, "title");
         displayBooks(booksByYear, 2 * ySpacing, "year");
@@ -58,7 +58,7 @@ public class SortingObjects extends PApplet {
         Book[] books = new Book[titles.length];
 
         for (int i = 0; i < books.length; i++) {
-            books[i] = new Book(this, titles[i], authors[i], years[i], min(xSpacing - 40, ySpacing - 40));
+            books[i] = new Book(this, titles[i], authors[i], years[i], min(xSpacing - 45, ySpacing - 45));
         }
 
         return books;
@@ -71,7 +71,7 @@ public class SortingObjects extends PApplet {
             case "title":
 
                 for (int i = 0; i < books.length; i++) {
-                    books[i].display((i * xSpacing) + (xSpacing / 2), y, ySpacing - 30, books[i].getTitle());
+                    books[i].display((i * xSpacing) + (xSpacing / 2), y, ySpacing - 40, books[i].getTitle());
                 }
 
                 break;
@@ -79,7 +79,7 @@ public class SortingObjects extends PApplet {
             case "year":
 
                 for (int i = 0; i < books.length; i++) {
-                    books[i].display((i * xSpacing) + (xSpacing / 2), y, ySpacing - 30, str(books[i].getYear()));
+                    books[i].display((i * xSpacing) + (xSpacing / 2), y, ySpacing - 40, str(books[i].getYear()));
                 }
 
                 break;
@@ -87,7 +87,7 @@ public class SortingObjects extends PApplet {
             case "author":
 
                 for (int i = 0; i < books.length; i++) {
-                    books[i].display((i * xSpacing) + (xSpacing / 2), y, ySpacing - 30, books[i].getAuthor());
+                    books[i].display((i * xSpacing) + (xSpacing / 2), y, ySpacing - 40, books[i].getAuthor());
                 }
 
                 break;
@@ -95,7 +95,7 @@ public class SortingObjects extends PApplet {
             case "size":
 
                 for (int i = 0; i < books.length; i++) {
-                    books[i].display((i * xSpacing) + (xSpacing / 2), y, ySpacing - 30, str(books[i].getSize()));
+                    books[i].display((i * xSpacing) + (xSpacing / 2), y, ySpacing - 40, str(books[i].getSize()));
                 }
 
                 break;
@@ -103,7 +103,7 @@ public class SortingObjects extends PApplet {
             default:
 
                 for (int i = 0; i < books.length; i++) {
-                    books[i].display((i * xSpacing) + (xSpacing / 2), y, ySpacing - 30, books[i].getTitle());
+                    books[i].display((i * xSpacing) + (xSpacing / 2), y, ySpacing - 40, books[i].getTitle());
                 }
 
                 break;
