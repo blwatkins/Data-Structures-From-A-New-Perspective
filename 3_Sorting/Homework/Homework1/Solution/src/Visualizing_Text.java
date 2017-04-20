@@ -1,6 +1,6 @@
 // Brittni Watkins
 // Unit 3 - Sorting
-// Homework 1 Solution
+// Homework 1 - Visualizing Text Solution
 // Text Sources
     // Wordsworth -> http://www.gutenberg.org/cache/epub/8905/pg8905.txt
     // Poe -> http://www.gutenberg.org/cache/epub/10031/pg10031.txt
@@ -14,7 +14,7 @@ import processing.data.*;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-public class Solution extends PApplet {
+public class Visualizing_Text extends PApplet {
     private String[] filenames = {"dickinson_1.txt", "dickinson_2.txt", "dickinson_3.txt", "poe_amontillado.txt",
             "poe_bells.txt", "poe_raven.txt", "teasdale_barter.txt", "teasdale_fountain.txt",
             "teasdale_twilight.txt", "wordsworth_animal.txt", "wordsworth_complaint.txt", "wordsworth_tables.txt",
@@ -166,7 +166,7 @@ public class Solution extends PApplet {
     }
 
     static public void main(String[] passedArgs) {
-        String[] appletArgs = new String[] { "Solution" };
+        String[] appletArgs = new String[] { "Visualizing_Text" };
 
         if (passedArgs != null) {
             PApplet.main(concat(appletArgs, passedArgs));
