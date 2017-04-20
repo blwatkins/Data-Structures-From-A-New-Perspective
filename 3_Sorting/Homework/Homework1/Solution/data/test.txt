@@ -1,9 +1,0 @@
-This is a text file that I will use for testing.
-Testing the test text file.
-
-	And in that grass, there was a little hole.
-	The prettiest little hole
-	That you ever did see.
-	Well, the hole in the ground,
-	And the green grass grew all around, all around.
-	And, the green grass grew all around.
