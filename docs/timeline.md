@@ -20,14 +20,14 @@ Based on a Monday, Wednesday, Friday class Schedule
 
 ### Monday
   * Lesson: [Basic Data Structures, Structs and Arrays](1_Introduction/day4.md)
-  * Homework Assigned: [Deleting Elements from an Array](1_Introduction/homework.md)
+  * Homework Assigned: [Deleting Elements from an Array](1_Introduction/homework1.md)
 
 ### Wednesday
   * Lesson: [Basic Data Structures, Arrays and ArrayLists](1_Introduction/day5.md)
 
 ### Friday
   * Lesson: [Homework Review](1_Introduction/day6.md)
-  * Homework Due: [Deleting Elements from an Array](1_Introduction/homework.md)
+  * Homework Due: [Deleting Elements from an Array](1_Introduction/homework1.md)
 
 ### Lab
   * No lab this week

@@ -13,6 +13,6 @@
 
 ## [ArrayList Example](https://github.com/blwatkins/Data-Structures-From-A-New-Perspective/tree/master/1_Introduction/Day5/ArrayLists)
 
-[Previous: Deleting Elements from an Array](homework.md)
+[Previous: Deleting Elements from an Array](homework1.md)
 
 [Next: Homework Review](day6.md)

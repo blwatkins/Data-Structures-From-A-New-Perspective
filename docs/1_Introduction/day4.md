@@ -29,4 +29,4 @@
 
 [Previous: Git and GitHub](day3.md)
 
-[Next: Deleting Elements from an Array](homework.md)
+[Next: Deleting Elements from an Array](homework1.md)

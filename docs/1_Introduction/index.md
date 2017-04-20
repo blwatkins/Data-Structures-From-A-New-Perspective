@@ -9,6 +9,6 @@
   * [Homework Review](day6.md)
 
 ## Homework
-  * [Deleting Elements from an Array](homework.md)
+  * [Deleting Elements from an Array](homework1.md)
 
 ## [Recommended Videos](videos.md)
