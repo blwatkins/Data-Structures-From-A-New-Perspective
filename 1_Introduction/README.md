@@ -9,6 +9,6 @@
   * [Homework Review](https://github.com/blwatkins/Data-Structures-From-A-New-Perspective/blob/master/1_Introduction/day6.md)
 
 ## Homework
-  * [Deleting Elements from an Array](https://github.com/blwatkins/Data-Structures-From-A-New-Perspective/blob/master/1_Introduction/homework.md)
+  * [Deleting Elements from an Array](https://github.com/blwatkins/Data-Structures-From-A-New-Perspective/blob/master/1_Introduction/homework1.md)
 
 ## [Recommended Videos](https://github.com/blwatkins/Data-Structures-From-A-New-Perspective/blob/master/1_Introduction/videos.md)
