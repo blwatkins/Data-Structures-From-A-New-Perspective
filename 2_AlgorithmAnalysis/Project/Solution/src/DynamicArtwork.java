@@ -6,7 +6,7 @@
 import processing.core.PApplet;
 import processing.core.PVector;
 
-public class Project1_DynamicArtwork extends PApplet {
+public class DynamicArtwork extends PApplet {
     private final int START_SCREEN = 0;
     private final int ART_SCREEN = 1;
     private int screen;
@@ -91,7 +91,7 @@ public class Project1_DynamicArtwork extends PApplet {
     }
 
     static public void main(String[] passedArgs) {
-        String[] appletArgs = new String[] { "Project1_DynamicArtwork" };
+        String[] appletArgs = new String[] { "DynamicArtwork" };
 
         if (passedArgs != null) {
             PApplet.main(concat(appletArgs, passedArgs));

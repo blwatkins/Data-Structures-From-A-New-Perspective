@@ -14,7 +14,7 @@ import processing.data.*;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-public class Visualizing_Text extends PApplet {
+public class VisualizingText extends PApplet {
     private String[] filenames = {"dickinson_1.txt", "dickinson_2.txt", "dickinson_3.txt", "poe_amontillado.txt",
             "poe_bells.txt", "poe_raven.txt", "teasdale_barter.txt", "teasdale_fountain.txt",
             "teasdale_twilight.txt", "wordsworth_animal.txt", "wordsworth_complaint.txt", "wordsworth_tables.txt",
@@ -166,7 +166,7 @@ public class Visualizing_Text extends PApplet {
     }
 
     static public void main(String[] passedArgs) {
-        String[] appletArgs = new String[] { "Visualizing_Text" };
+        String[] appletArgs = new String[] { "VisualizingText" };
 
         if (passedArgs != null) {
             PApplet.main(concat(appletArgs, passedArgs));
