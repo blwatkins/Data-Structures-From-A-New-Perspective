@@ -197,8 +197,49 @@ public class QuickSort extends PApplet {
 
     private String[] quickSort(String[] text) {
         String[] sorted = Arrays.copyOf(text, text.length);
-
+        quickSort(sorted, 0, sorted.length-1);
         return sorted;
+    }
+
+    private void quickSort(String[] text, int i, int j) {
+        if (j - i > 1) {
+            int pivotIndex = (int)random(i, j);
+            int r = i;
+            int s = j;
+
+            swap(text, pivotIndex, s);
+            pivotIndex = s;
+            s--;
+
+            while (r <= s) {
+                while (text[r].compareToIgnoreCase(text[pivotIndex]) <= 0) {
+                    if (r == j) break;
+                    r++;
+                }
+
+                while (text[s].compareToIgnoreCase(text[pivotIndex]) > 0) {
+                    if (s == 0) break;
+                    s--;
+                }
+
+                if (r < s) {
+                    swap(text, r, s);
+                } else if (s == 0) {
+                    break;
+                }
+            }
+
+            swap(text, pivotIndex, r);
+
+            quickSort(text, i, s);
+            quickSort(text, r + 1, j);
+
+        } else if (j - i == 1) {
+            if (text[i].compareToIgnoreCase(text[j]) > 0) {
+                swap(text, i, j);
+            }
+        }
+
     }
 
     private void swap(String[] text, int indexA, int indexB) {
