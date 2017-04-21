@@ -23,6 +23,6 @@
 ## How Do We Perform these Functions with Basic Arrays?
   * Focus on access and insert
 
-## [Struct Example](https://github.com/blwatkins/Data-Structures-From-A-New-Perspective/tree/master/1_Introduction/Day4/Structs)
+## [Struct Example](https://github.com/blwatkins/Data-Structures-From-A-New-Perspective/tree/master/1_Introduction/LectureExamples/Day4/Structs)
 
-## [Array Example](https://github.com/blwatkins/Data-Structures-From-A-New-Perspective/tree/master/1_Introduction/Day4/Arrays)
+## [Array Example](https://github.com/blwatkins/Data-Structures-From-A-New-Perspective/tree/master/1_Introduction/LectureExamples/Day4/Arrays)

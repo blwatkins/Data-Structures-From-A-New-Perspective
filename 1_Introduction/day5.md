@@ -11,4 +11,4 @@
   * Focus on access, insert, and delete
   * How do these functions differ from those of an array?
 
-## [ArrayList Example](https://github.com/blwatkins/Data-Structures-From-A-New-Perspective/tree/master/1_Introduction/Day5/ArrayLists)
+## [ArrayList Example](https://github.com/blwatkins/Data-Structures-From-A-New-Perspective/tree/master/1_Introduction/LectureExamples/Day5/ArrayLists)
