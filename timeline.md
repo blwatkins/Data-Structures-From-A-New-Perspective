@@ -43,7 +43,7 @@
   * Lesson: [Big-Oh Analysis](https://github.com/blwatkins/Data-Structures-From-A-New-Perspective/blob/master/2_AlgorithmAnalysis/day3.md)
 
 ### Lab
-  * [Setting up the Environment](https://github.com/blwatkins/Data-Structures-From-A-New-Perspective/blob/master/2_AlgorithmAnalysis/lab.md)
+  * [Setting up the Environment](https://github.com/blwatkins/Data-Structures-From-A-New-Perspective/blob/master/2_AlgorithmAnalysis/lab1.md)
 
 ## Week 4 - Sorting
 
