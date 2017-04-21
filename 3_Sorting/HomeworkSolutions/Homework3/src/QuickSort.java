@@ -218,13 +218,13 @@ public class QuickSort extends PApplet {
                 }
 
                 while (text[s].compareToIgnoreCase(text[pivotIndex]) > 0) {
-                    if (s == 0) break;
+                    if (s == i) break;
                     s--;
                 }
 
                 if (r < s) {
                     swap(text, r, s);
-                } else if (s == 0) {
+                } else if (s == i) {
                     break;
                 }
             }
