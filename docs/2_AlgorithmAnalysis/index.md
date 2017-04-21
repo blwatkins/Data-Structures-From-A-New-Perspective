@@ -6,7 +6,7 @@
   * [Big-Oh Analysis](day3.md)
 
 ## Labs
-  * [Setting Up the Environment](lab.md)
+  * [Setting Up the Environment](lab1.md)
 
 ## Project
   * [Dynamic Artwork](project.md)

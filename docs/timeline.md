@@ -45,7 +45,7 @@ Based on a Monday, Wednesday, Friday class Schedule
   * Lesson: [Big-Oh Analysis](2_AlgorithmAnalysis/day3.md)
 
 ### Lab
-  * [Setting up the Environment](2_AlgorithmAnalysis/lab.md)
+  * [Setting up the Environment](2_AlgorithmAnalysis/lab1.md)
 
 ## Week 4 - Sorting
 

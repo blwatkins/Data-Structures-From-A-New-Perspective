@@ -14,4 +14,4 @@
 
 [Previous: Growth Rate and Asymptotic Analysis](day2.md)
 
-[Next: Setting up the Environment](lab.md)
+[Next: Setting up the Environment](lab1.md)
