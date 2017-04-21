@@ -1,5 +1,5 @@
 // Brittni Watkins
-// 15 March 2017
+// Unit 2: Algorithm Analysis
 // Project Solution: Dynamic Artwork
 // PApplet Class
 

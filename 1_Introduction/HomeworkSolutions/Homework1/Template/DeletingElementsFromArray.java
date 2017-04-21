@@ -3,7 +3,7 @@
 // Homework 1 Template
 // Deleting Elements from an Array
 
-public class DeletingElementsFromArray_Template {
+public class DeletingElementsFromArray {
 
     public static void main(String[] args) {
         MyArray values = new MyArray(10);

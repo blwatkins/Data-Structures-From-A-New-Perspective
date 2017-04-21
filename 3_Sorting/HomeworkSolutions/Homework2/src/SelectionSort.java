@@ -59,7 +59,7 @@ public class SelectionSort extends PApplet {
     }
 
     public void keyPressed() {
-
+        
         if (keyCode == RIGHT) {
             mode = RAW;
             currentFileIndex++;
