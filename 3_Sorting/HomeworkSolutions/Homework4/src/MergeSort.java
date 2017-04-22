@@ -12,19 +12,8 @@
 
 import processing.core.*;
 import processing.data.*;
-import processing.event.*;
-import processing.opengl.*;
 
-import java.util.HashMap;
 import java.util.ArrayList;
-import java.io.File;
-import java.io.BufferedReader;
-import java.io.PrintWriter;
-import java.io.InputStream;
-import java.io.OutputStream;
-import java.io.IOException;
-
-
 import java.util.Arrays;
 
 public class MergeSort extends PApplet {
@@ -60,11 +49,13 @@ public class MergeSort extends PApplet {
 
     public void draw() {
         background(200);
+
         if (mode == RAW) {
             displayWords(rawText);
         } else if (mode == SORTED) {
             displayWords(sortedText);
         }
+
     }
 
     public void settings() {
@@ -138,7 +129,6 @@ public class MergeSort extends PApplet {
 
         String[] textArray = new String[text.size()];
         textArray = text.toArray(textArray);
-
         return textArray;
     }
 
@@ -161,7 +151,6 @@ public class MergeSort extends PApplet {
         int[] maxFactors = new int[2];
         maxFactors[0] = factors.get(factor1_index);
         maxFactors[1] = factors.get(factor2_index);
-
         return maxFactors;
     }
 
@@ -207,15 +196,63 @@ public class MergeSort extends PApplet {
     }
 
     private String[] mergeSort(String[] text) {
-        String[] sorted = Arrays.copyOf(text, text.length);
-        return sorted;
+
+        if (text.length > 1) {
+            int partition = text.length / 2;
+            String[] left = new String[partition];
+            String[] right = new String[text.length - partition];
+
+            for (int count = 0; count < left.length; count++) {
+                left[count] = text[count];
+            }
+
+            for (int count = 0; count < right.length; count++) {
+                right[count] = text[partition + count];
+            }
+
+            String[] leftM = mergeSort(left);
+            String[] rightM = mergeSort(right);
+            return merge(leftM, rightM);
+        } else {
+            return text;
+        }
+
     }
 
+    private String[] merge(String[] listA, String[] listB) {
+        int length = listA.length + listB.length;
+        int j = 0;
+        int k = 0;
+        int i = 0;
+        String[] mergedList = new String[length];
 
-    private void swap(String[] text, int indexA, int indexB) {
-        String temp = text[indexA];
-        text[indexA] = text[indexB];
-        text[indexB] = temp;
+        while (i < mergedList.length) {
+
+            if (j < listA.length && k < listB.length) {
+
+                if (listA[j].compareToIgnoreCase(listB[k]) <= 0) {
+                    mergedList[i] = listA[j];
+                    j++;
+                    i++;
+                } else {
+                    mergedList[i] = listB[k];
+                    k++;
+                    i++;
+                }
+
+            } else if (j >= listA.length) {
+                mergedList[i] = listB[k];
+                k++;
+                i++;
+            } else if (k >= listB.length) {
+                mergedList[i] = listA[j];
+                j++;
+                i++;
+            }
+
+        }
+
+        return mergedList;
     }
 
     static public void main(String[] passedArgs) {
