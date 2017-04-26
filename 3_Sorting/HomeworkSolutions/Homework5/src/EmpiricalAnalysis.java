@@ -56,7 +56,6 @@ public class EmpiricalAnalysis extends PApplet {
         setFileOutName();
         createTable();
         _init();
-
     }
 
     public void draw() {
@@ -176,9 +175,11 @@ public class EmpiricalAnalysis extends PApplet {
         IntList factors = new IntList();
 
         for (int i = 1; i <= num; i++) {
+
             if (num % i == 0) {
                 factors.append(i);
             }
+
         }
 
         int factor1_index = factors.size() / 2;
@@ -268,6 +269,7 @@ public class EmpiricalAnalysis extends PApplet {
     }
 
     private void quickSort(String[] text, int i, int j) {
+
         if (j - i > 1) {
             int pivotIndex = (int)random(i, j);
             int r = i;
@@ -278,6 +280,7 @@ public class EmpiricalAnalysis extends PApplet {
             s--;
 
             while (r <= s) {
+
                 while (text[r].compareToIgnoreCase(text[pivotIndex]) <= 0) {
                     if (r == j) break;
                     r++;
@@ -293,17 +296,19 @@ public class EmpiricalAnalysis extends PApplet {
                 } else if (s == i) {
                     break;
                 }
+
             }
 
             swap(text, pivotIndex, r);
 
             quickSort(text, i, s);
             quickSort(text, r + 1, j);
-
         } else if (j - i == 1) {
+
             if (text[i].compareToIgnoreCase(text[j]) > 0) {
                 swap(text, i, j);
             }
+
         }
 
     }
