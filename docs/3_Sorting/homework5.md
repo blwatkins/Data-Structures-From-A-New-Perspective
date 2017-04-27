@@ -8,15 +8,15 @@ Plot a graph that shows the size of the data vs. the time it took the algorithm 
 
 ## [Solution](https://github.com/blwatkins/Data-Structures-From-A-New-Perspective/blob/master/3_Sorting/HomeworkSolutions/Homework5/src/EmpiricalAnalysis.java)
 
-<img src="3_Sorting/Images/Homework5/selection-sort.png" alt="Selection Sort Graph" width="500" height="300">
+<img src="Images/Homework5/selection-sort.png" alt="Selection Sort Graph" width="500" height="300">
 
-<img src="3_Sorting/Images/Homework5/quick-sort.png" alt="Quick Sort Graph" width="500" height="300">
+<img src="Images/Homework5/quick-sort.png" alt="Quick Sort Graph" width="500" height="300">
 
-<img src="3_Sorting/Images/Homework5/merge-sort.png" alt="Merge Sort Graph" width="500" height="300">
+<img src="Images/Homework5/merge-sort.png" alt="Merge Sort Graph" width="500" height="300">
 
-<img src="3_Sorting/Images/Homework5/all-sorts.png" alt="All Sorts Comparison" width="500" height="300">
+<img src="Images/Homework5/all-sorts.png" alt="All Sorts Comparison" width="500" height="300">
 
-<img src="3_Sorting/Images/Homework5/all-sorts-200.png" alt="All Sorts, 200 words or less" width="500" height="300">
+<img src="Images/Homework5/all-sorts-200.png" alt="All Sorts, 200 words or less" width="500" height="300">
 
 [Previous: Homework Review and Small Group Discussions](day5.md)
 
