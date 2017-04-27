@@ -12,7 +12,7 @@
   * Creating a `Comparator`
   * Defining `compare(...)` functions
 
-## [Sorting Arrays Example](https://github.com/blwatkins/Data-Structures-From-A-New-Perspective/blob/master/3_Sorting/Day1/SortingArrays/src/SortingArrays.java)
+## [Sorting Arrays Example](https://github.com/blwatkins/Data-Structures-From-A-New-Perspective/blob/master/3_Sorting/LectureExamples/Day1/SortingArrays/src/SortingArrays.java)
 
 <img src="https://github.com/blwatkins/Data-Structures-From-A-New-Perspective/blob/master/3_Sorting/Images/Day1/sorting-arrays_1.png" alt="Sorting Arrays Example" width="500" height="300">
 
