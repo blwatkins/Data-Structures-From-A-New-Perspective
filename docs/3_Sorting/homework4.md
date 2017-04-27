@@ -6,6 +6,8 @@ Using your Processing sketch from the [Visualizing Text](homework1.md) assignmen
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/NJobz1fWVs8" frameborder="0" allowfullscreen></iframe>
 
+<br>
+
 [Previous: Merge Sort](day4.md)
 
 [Next: Homework Review and Small Group Discussions](day5.md)

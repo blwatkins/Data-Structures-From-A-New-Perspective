@@ -6,6 +6,8 @@ Using your Processing sketch from the [Visualizing Text](homework1.md) assignmen
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Mvs20pYr8PM" frameborder="0" allowfullscreen></iframe>
 
+<br>
+
 [Previous: Selection Sort](day2.md)
 
 [Next: Quick Sort](day3.md)

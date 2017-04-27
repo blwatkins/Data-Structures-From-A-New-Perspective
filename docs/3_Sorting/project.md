@@ -16,6 +16,8 @@
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ZPWIMiJ2shw" frameborder="0" allowfullscreen></iframe>
 
+<br>
+
 [Previous: Sorting in Java](day1.md)
 
 [Next: Visualizing Text](homework1.md)
