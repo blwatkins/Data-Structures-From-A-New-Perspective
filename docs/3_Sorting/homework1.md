@@ -11,6 +11,10 @@ In a Java IDE, create a Processing sketch that satifies the following criteria:
 
 Note: You do not have to account for punctuation or case. "Alice", "alice", and "alice!" can count as 3 separate words
 
+## [Solution](https://github.com/blwatkins/Data-Structures-From-A-New-Perspective/blob/master/3_Sorting/HomeworkSolutions/Homework1/src/VisualizingText.java)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ym3ibwur2WA" frameborder="0" allowfullscreen></iframe>
+
 [Previous: Sorting Objects](project.md)
 
 [Next: Selection Sort](day2.md)
