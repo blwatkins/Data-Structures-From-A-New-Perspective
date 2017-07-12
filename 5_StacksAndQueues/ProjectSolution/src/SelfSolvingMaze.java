@@ -32,7 +32,7 @@ public class SelfSolvingMaze extends PApplet {
 
     public void setup() {
 
-        String[] mazeRows = loadStrings("maze10.txt");
+        String[] mazeRows = loadStrings("maze20.txt");
         cols = mazeRows[0].length();
         float size = width / cols;
 
