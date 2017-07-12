@@ -1,0 +1,24 @@
+[
+  {
+    "name": "Bob",
+    "height": 5.8,
+    "age": 45
+  },
+  {
+    "name": "Carol",
+    "height": 5.2,
+    "age": 34,
+    "children": [{"name": "Amy"}, {"name": "Rick"}, {"name": "Ethan"}] 
+  },
+  {
+    "name": "Bill",
+    "height": 5.9,
+    "age": 40,
+    "children": [{"name": "Bill Jr."}, {"name": "John"}, {"name": "Rob"}]
+  },
+  {
+    "name": "Denise",
+    "height": 6.0,
+    "age": 35
+  }
+]
