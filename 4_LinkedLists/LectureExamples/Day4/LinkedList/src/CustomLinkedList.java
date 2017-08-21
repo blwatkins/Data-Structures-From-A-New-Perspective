@@ -3,23 +3,13 @@
 // Day 4 - Implementing a Linked List
 // Custom Linked List Implementation
 // A LinkedList of Circle Objects
+// Press 'c' to add a new random circle
+// Press 'p' to print the list to the console
 
 import processing.core.*;
-import processing.data.*;
-import processing.event.*;
-import processing.opengl.*;
-
-import java.util.HashMap;
-import java.util.ArrayList;
-import java.io.File;
-import java.io.BufferedReader;
-import java.io.PrintWriter;
-import java.io.InputStream;
-import java.io.OutputStream;
-import java.io.IOException;
 
 public class CustomLinkedList extends PApplet {
-    LinkedList myList;
+    private LinkedList myList;
 
     public void setup() {
         myList = new LinkedList();
@@ -28,10 +18,12 @@ public class CustomLinkedList extends PApplet {
 
     public void draw() {
         background(250);
+
         for (int i = 0; i < myList.size(); i++) {
             myList.get(i).display();
             myList.get(i).displayInfo(width / 2, height - 25, i);
         }
+
     }
 
     public void settings() {
@@ -66,10 +58,13 @@ public class CustomLinkedList extends PApplet {
 
     static public void main(String[] passedArgs) {
         String[] appletArgs = new String[] { "CustomLinkedList" };
+
         if (passedArgs != null) {
             PApplet.main(concat(appletArgs, passedArgs));
         } else {
             PApplet.main(appletArgs);
         }
+
     }
+
 }
