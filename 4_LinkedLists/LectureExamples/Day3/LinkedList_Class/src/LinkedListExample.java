@@ -1,5 +1,6 @@
 // Brittni Watkins
-// 21 August 2017
+// Unit 4: Linked Lists
+// Day 3 - Linked Lists in Java
 // Linked List Example
 
 import processing.core.*;

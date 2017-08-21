@@ -1,5 +1,6 @@
 // Brittni Watkins
-// 15 March 2017
+// Unit 1: Introduction
+// Day 4 - Basic Data Structures, Structs and Arrays
 // Array Class Example
 
 public class MyArray {

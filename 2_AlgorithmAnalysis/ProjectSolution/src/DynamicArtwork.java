@@ -1,6 +1,6 @@
 // Brittni Watkins
 // Unit 2: Algorithm Analysis
-// Project Solution: Dynamic Artwork
+// Project - Dynamic Artwork
 // PApplet Class
 
 import processing.core.PApplet;

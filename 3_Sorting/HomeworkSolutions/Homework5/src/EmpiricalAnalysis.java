@@ -1,6 +1,6 @@
 // Brittni Watkins
 // Unit 3 - Sorting
-// Homework 5 - Empirical Analysis Solution
+// Homework 5: Empirical Analysis Solution
 // Text Sources
     // Wordsworth -> http://www.gutenberg.org/cache/epub/8905/pg8905.txt
     // Poe -> http://www.gutenberg.org/cache/epub/10031/pg10031.txt

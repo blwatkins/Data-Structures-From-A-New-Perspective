@@ -1,5 +1,6 @@
 // Brittni Watkins
-// 27 January 2017
+// Unit 1: Introduction
+// Day 4 - Basic Data Structures, Structs and Arrays
 // Struct Example
 // Very simple class with overrided toString() method
 

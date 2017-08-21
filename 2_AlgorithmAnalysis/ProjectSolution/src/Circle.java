@@ -1,6 +1,6 @@
 // Brittni Watkins
-// 15 March 2017
-// Project Solution: Dynamic Artwork
+// Unit 2: Algorithm Analysis
+// Project - Dynamic Artwork
 // Circle Class
 
 import processing.core.PApplet;

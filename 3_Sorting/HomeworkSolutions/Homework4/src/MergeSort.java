@@ -1,5 +1,5 @@
 // Brittni Watkins
-// Unit 3 - Sorting
+// Unit 3: Sorting
 // Homework 4 - Merge Sort Implementation Solution
 // Text Sources
     // Wordsworth -> http://www.gutenberg.org/cache/epub/8905/pg8905.txt

@@ -1,6 +1,6 @@
 // Brittni Watkins
-// Unit 3 - Sorting
-// Project Solution - Sorting Objects
+// Unit 3: Sorting
+// Project - Sorting Objects
 // Sort Mode Enumerator
 
 public enum SortMode {

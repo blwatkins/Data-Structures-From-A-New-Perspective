@@ -1,5 +1,6 @@
 // Brittni Watkins
-// 15 March 2017
+// Unit 1: Introduction
+// Day 5 - Basic Data Structures, Arrays and ArrayLists
 // Array List Example
 // Access, insert, delete
 

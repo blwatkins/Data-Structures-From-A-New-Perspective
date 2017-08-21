@@ -1,8 +1,8 @@
 // Brittni Watkins
-// 15 March 2017
-// Homework 1 Template
-// Deleting Elements from an Array
-// Array class
+// Unit 1: Introduction
+// Homework 1 - Deleting Elements from an Array
+// Homework Template
+// Array Class
 
 public class MyArray {
     private int[] array;

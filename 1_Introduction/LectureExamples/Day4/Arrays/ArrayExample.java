@@ -1,5 +1,6 @@
 // Brittni Watkins
-// 25 Jan 2017
+// Unit 1: Introduction
+// Day 4 - Basic Data Structures, Structs and Arrays
 // Array Example
 // Filling arrays, inserting values into arrays, and printing arrays
 

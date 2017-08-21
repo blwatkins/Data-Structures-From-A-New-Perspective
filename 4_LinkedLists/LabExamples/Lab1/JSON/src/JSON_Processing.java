@@ -1,3 +1,7 @@
+// Brittni Watkins
+// Unit 4: Linked Lists
+// Lab 1 - JSON
+
 import processing.core.*;
 import processing.data.*;
 

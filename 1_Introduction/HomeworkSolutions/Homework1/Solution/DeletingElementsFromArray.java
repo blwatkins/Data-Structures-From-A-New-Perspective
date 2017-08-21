@@ -1,7 +1,7 @@
 // Brittni Watkins
-// 15 March 2017
-// Homework 1 Solution
-// Deleting Elements from an Array
+// Unit 1: Introduction
+// Homework 1 - Deleting Elements from an Array
+// Homework Solution
 
 public class DeletingElementsFromArray {
 

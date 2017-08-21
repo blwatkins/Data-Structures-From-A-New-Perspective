@@ -1,6 +1,6 @@
 // Brittni Watkins
-// Unit 3 - Sorting
-// Project Solution - Sorting Objects
+// Unit 3: Sorting
+// Project - Sorting Objects
 // Main Program
 
 import processing.core.*;

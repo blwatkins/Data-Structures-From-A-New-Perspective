@@ -1,4 +1,6 @@
 // Brittni Watkins
+// Unit 3: Sorting
+// Day 1 - Sorting in Java
 // Sorting Arrays Lecture Example
 
 import processing.core.*;
