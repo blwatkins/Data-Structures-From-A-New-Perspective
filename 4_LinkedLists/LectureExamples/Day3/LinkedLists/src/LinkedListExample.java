@@ -17,17 +17,18 @@ public class LinkedListExample extends PApplet {
     public void draw() {
         background(250);
 
-        for (int i = 0; i < myList.size(); i++) {
-            myList.get(i).display(); // accessing list elements
+        for (Circle c: myList) { // iterating through all list elements
+            c.display();
         }
 
-        for (Circle c: myList) { // iterating through all list elements
+        for (int i = 0; i < myList.size(); i++) {
+            Circle c = myList.get(i); // accessing list elements
             float distance = dist(mouseX, mouseY, c.getPos().x, c.getPos().y);
 
             if (distance < 25 / 2) {
                 fill(0);
                 textAlign(CENTER);
-                text(c.toString(), width / 2, height - 25);
+                text(i + ": " + c, width / 2, height - 25);
             }
 
         }
@@ -35,7 +36,7 @@ public class LinkedListExample extends PApplet {
     }
 
     public void settings() {
-        size(500, 500);
+        size(displayWidth, displayHeight - 40);
     }
 
     public void mousePressed() {
@@ -57,7 +58,7 @@ public class LinkedListExample extends PApplet {
     }
 
     private void createCircles() {
-        int numCircles = (int)random(5, 50);
+        int numCircles = (int)random(50, 300);
 
         for (int i = 0; i < numCircles; i++) {
             float x = random(20, width - 20);
