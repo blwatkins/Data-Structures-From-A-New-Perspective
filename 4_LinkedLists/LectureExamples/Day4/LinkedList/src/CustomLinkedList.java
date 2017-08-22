@@ -27,7 +27,7 @@ public class CustomLinkedList extends PApplet {
     }
 
     public void settings() {
-        size(500, 500);
+        size(displayWidth, displayHeight - 45);
     }
 
     public void keyPressed() {
