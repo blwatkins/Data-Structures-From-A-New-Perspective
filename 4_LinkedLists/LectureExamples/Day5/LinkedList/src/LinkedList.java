@@ -1,6 +1,6 @@
 // Brittni Watkins
 // Unit 4: Linked Lists
-// Day 4 - Implementing a Linked List
+// Day 5 - Implementing a Linked List, Day 2
 // Linked List Class
 
 public class LinkedList {
@@ -32,6 +32,7 @@ public class LinkedList {
     }
 
     public void add(Circle c, int index) {
+
         if (index >= 0 && index <= size) {
 
             if (index == 0) {
@@ -42,10 +43,22 @@ public class LinkedList {
             } else if (index == size) {
                 add(c);
             } else {
+                int i = 0;
+                Node curr = head;
+                Node toAdd = new Node(c);
 
+                while (i < index - 1) {
+                    curr = curr.getNext();
+                    i++;
+                }
+
+                toAdd.setNext(curr.getNext());
+                curr.setNext(toAdd);
+                size++;
             }
 
         }
+
     }
 
     // linked list will be zero-indexed

@@ -3,14 +3,15 @@
 // Day 5 - Implementing a Linked List, Day 2
 // Custom Linked List Implementation
 // A LinkedList of Circle Objects
-// Press 'c' to add a new random circle
 // Press 'p' to print the list to the console
+// Press 'b' to add a circle to the beginning of the list
+// Press 'e' to add a circle to the end of the list
+// Press any number key 0-9 to add a circle to the corresponding position in the list
 
 import processing.core.*;
 
 public class CustomLinkedList extends PApplet {
     private LinkedList myList;
-    private String addString = "0123456789";
 
     public void setup() {
         myList = new LinkedList();
@@ -28,15 +29,13 @@ public class CustomLinkedList extends PApplet {
     }
 
     public void settings() {
-        //size(displayWidth, displayHeight - 45);
-        size(500, 500);
+        size(displayWidth, displayHeight - 45);
     }
 
     public void keyPressed() {
+        String addString = "0123456789";
 
-        if (key == 'c') {
-            addCircle();
-        } else if (key == 'p') {
+        if (key == 'p') {
             System.out.println(myList);
         } else if (key == 'b') {
             addCircle(0);

@@ -1,6 +1,6 @@
 // Brittni Watkins
 // Unit 4: Linked Lists
-// Day 4 - Implementing a Linked List
+// Day 5 - Implementing a Linked List, Day 2
 // Node Class
 
 public class Node {
