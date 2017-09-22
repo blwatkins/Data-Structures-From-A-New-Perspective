@@ -13,7 +13,7 @@
   * [Work Day](lab2.md)
 
 ## Homework
-  * [Deleting Elements from a Linked List](homework.md)
+  * [Deleting Elements from a Linked List](homework1.md)
 
 ## Project
   * [Data Visualization](project.md)

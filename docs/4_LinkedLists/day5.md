@@ -11,4 +11,4 @@
   
 [Previous: Implementing a Linked List](day4.md)
 
-[Next: Deleting Elements from a Linked List](homework.md)
+[Next: Deleting Elements from a Linked List](homework1.md)

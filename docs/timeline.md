@@ -112,11 +112,11 @@ Based on a Monday, Wednesday, Friday class Schedule
 
 ### Wednesday
   * Lesson: [Implementing a Linked List, Day 2](4_LinkedLists/day5.md)
-  * Homework Assigned: [Deleting Elements from a Linked List](4_LinkedLists/homework.md)
+  * Homework Assigned: [Deleting Elements from a Linked List](4_LinkedLists/homework1.md)
 
 ### Friday
   * Lesson: [Homework Review and Structure Comparison](4_LinkedLists/day6.md)
-  * Homework Due: [Deleting Elements from a Linked List](4_LinkedLists/homework.md)
+  * Homework Due: [Deleting Elements from a Linked List](4_LinkedLists/homework1.md)
 
 ### Lab
   * [Work Day](4_LinkedLists/lab2.md)

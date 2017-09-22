@@ -8,6 +8,6 @@
   * How do arrays compare to linked lists?
     * Are the better or worse? Why? 
 
-[Previous: Deleting Elements from a Linked List](homework.md)
+[Previous: Deleting Elements from a Linked List](homework1.md)
 
 [Next: Work Day](lab2.md)
