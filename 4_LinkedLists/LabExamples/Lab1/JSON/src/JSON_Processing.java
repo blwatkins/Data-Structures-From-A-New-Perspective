@@ -48,7 +48,7 @@ public class JSON_Processing extends PApplet {
         // get name attribute from JSON object --> name is of type string
         String name = p.getString("name");
         String possessive = name + "'s";
-        
+
         // get age attribute from JSON object --> age is of type int
         int age = p.getInt("age");
 
