@@ -63,7 +63,6 @@ public class JSON_Processing extends PApplet {
                 break;
         }
 
-
     }
 
     private int getColor(String color) {
