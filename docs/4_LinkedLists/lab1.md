@@ -20,6 +20,10 @@
 
 ## [JSON in Processing Example](https://github.com/blwatkins/Data-Structures-From-A-New-Perspective/blob/master/4_LinkedLists/LabExamples/Lab1/JSON/src/JSON_Processing.java)
 
+<img src="Images/Lab1/json-processing_1.png" alt="JSON in Processing Example 1" width="500" height="300">
+
+<img src="Images/Lab1/json_processing_2.png" alt="JSON in Processing Example 2" width="500" height="300">
+
 [Previous: Linked Lists in Java](day3.md)
 
 [Next: Implementing a Linked List](day4.md)
