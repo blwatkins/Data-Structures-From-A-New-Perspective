@@ -1,24 +1,28 @@
 [
   {
-    "name": "Bob",
-    "height": 5.8,
-    "age": 45
+    "shape": "square",
+    "color": "blue",
+    "size": 50,
+    "attribute_array": [ {"name": "object 1", "id": 0}, {"name": "object 1", "id": 1} ]
   },
   {
-    "name": "Carol",
-    "height": 5.2,
-    "age": 34,
-    "children": [{"name": "Amy"}, {"name": "Rick"}, {"name": "Ethan"}] 
+    "shape": "triangle",
+    "color": "red",
+    "size": 75
   },
   {
-    "name": "Bill",
-    "height": 5.9,
-    "age": 40,
-    "children": [{"name": "Bill Jr."}, {"name": "John"}, {"name": "Rob"}]
+    "shape": "circle",
+    "color": "red",
+    "size": 100
   },
   {
-    "name": "Denise",
-    "height": 6.0,
-    "age": 35
+    "shape": "triangle",
+    "color": "green",
+    "size": 120
+  },
+  {
+    "shape": "triangle",
+    "color": "blue",
+    "size": 60
   }
 ]

@@ -9,28 +9,90 @@ import processing.data.*;
 public class JSON_Processing extends PApplet {
 
     public void setup() {
+        rectMode(CENTER);
+
         // Create JSON object from JSON data in the file
-        JSONObject bob = loadJSONObject("json_object.json");
-        println("JSON Object: ");
-        printPerson(bob);
+        JSONObject shape = loadJSONObject("json_object.json");
+        drawShape(shape);
 
-        // Create a JSON array from the JSON data in the file
-        JSONArray family = loadJSONArray("json_array.json");
-
-        println("JSON Array:");
-
-        // iterate over JSON objects in the JSON array
-        for (int i = 0; i < family.size(); i++) {
-            JSONObject person = family.getJSONObject(i); // get object at i-th position in the array
-            printPerson(person);
-        }
-
+        // Create JSON array from JSON data in the file
+        JSONArray shapes = loadJSONArray("json_array.json");
+        drawShapes(shapes);
     }
 
     public void draw() {
     }
 
     public void settings() {
+        size(displayWidth, displayHeight);
+    }
+
+    private void drawShapes(JSONArray shapes) {
+
+        // iterate over each JSON object in the array and call the drawShape method
+        for (int i = 0; i < shapes.size(); i++) {
+            drawShape(shapes.getJSONObject(i));
+        }
+
+    }
+
+    private void drawShape(JSONObject shape) {
+        String type = shape.getString("shape"); // access the object's shape attribute
+        String color = shape.getString("color"); // access the color attribute
+        int size = shape.getInt("size"); // access the size attribute
+        float x = random(size, width-size);
+        float y = random(size, height - size);
+
+        fill(getColor(color), 100);
+
+        switch (type) {
+            case "square":
+                rect(x, y, size, size);
+                break;
+
+            case "circle":
+                ellipse(x, y, size, size);
+                break;
+
+            case "triangle":
+                triangle(x, y, size);
+                break;
+
+            default:
+                rect(x, y, size * 2, size);
+                break;
+        }
+
+
+    }
+
+    private int getColor(String color) {
+        int col;
+
+        switch (color) {
+            case "red":
+                col = color(255, 0, 0);
+                break;
+
+            case "blue":
+                col = color(0, 0, 255);
+                break;
+
+            case "green":
+                col = color(0, 255, 0);
+                break;
+
+            default:
+                col = color(0);
+                break;
+        }
+
+        return col;
+    }
+
+    private void triangle(float x, float y, float size) {
+        float side = size / 2;
+        triangle(x, y - side, x + side, y + side, x - side, y + side);
     }
 
     static public void main(String[] passedArgs) {
@@ -42,50 +104,6 @@ public class JSON_Processing extends PApplet {
             PApplet.main(appletArgs);
         }
 
-    }
-
-    private void printPerson(JSONObject p) {
-        // get name attribute from JSON object --> name is of type string
-        String name = p.getString("name");
-        String possessive = name + "'s";
-
-        // get age attribute from JSON object --> age is of type int
-        int age = p.getInt("age");
-
-        // get height attribute from JSON object --> height is of type float
-        float height = p.getFloat("height");
-
-        println("This object's name is " + name);
-        println(possessive + " age is " + age);
-        println(possessive + " height is " + height + " feet");
-        printChildren(p, possessive);
-    }
-
-    private void printChildren(JSONObject p, String possessive) {
-        // get the JSON array stored in the JSON object
-        // JSON array of children stored in the children attribute of the object
-        JSONArray children = p.getJSONArray("children");
-
-        if (children != null) {
-            // build a string listing the names of the children "a, b, and c."
-            String childrenString = possessive + " children are named ";
-
-            for (int i = 0; i < children.size(); i++) {
-                JSONObject child = children.getJSONObject(i);
-                String childName = child.getString("name");
-
-                if (i == children.size() - 1) {
-                    childrenString += "and " + childName + ".";
-                } else {
-                    childrenString += childName + ", ";
-                }
-
-            }
-
-            println(childrenString);
-        }
-
-        println("");
     }
 
 }

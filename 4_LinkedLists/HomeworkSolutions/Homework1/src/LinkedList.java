@@ -61,6 +61,26 @@ public class LinkedList {
 
     }
 
+    public void remove(int index) {
+
+        if (index >= 0 && index < size) {
+
+            if (index == 0) {
+                Node toRemove = head;
+                head = head.getNext();
+                toRemove.setNext(null);
+            } else if (index == size - 1) {
+
+            } else {
+
+            }
+
+        } else {
+            System.out.println("ERROR: Invalid Index");
+        }
+
+    }
+
     // linked list will be zero-indexed
     public Circle get(int index) {
         Circle c = null;
