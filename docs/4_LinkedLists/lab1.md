@@ -22,7 +22,7 @@
 
 <img src="Images/Lab1/json-processing_1.png" alt="JSON in Processing Example 1" width="500" height="300">
 
-<img src="Images/Lab1/json_processing_2.png" alt="JSON in Processing Example 2" width="500" height="300">
+<img src="Images/Lab1/json-processing_2.png" alt="JSON in Processing Example 2" width="500" height="300">
 
 [Previous: Linked Lists in Java](day3.md)
 
