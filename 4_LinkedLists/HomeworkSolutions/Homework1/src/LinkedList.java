@@ -69,12 +69,22 @@ public class LinkedList {
                 Node toRemove = head;
                 head = head.getNext();
                 toRemove.setNext(null);
-            } else if (index == size - 1) {
-
             } else {
+                Node toRemove;
+                Node cur = head;
+                int curIndex = 0;
 
+                while (curIndex < index-1) {
+                    cur = cur.getNext();
+                    curIndex++;
+                }
+
+                toRemove = cur.getNext();
+                cur.setNext(toRemove.getNext());
+                toRemove.setNext(null);
             }
 
+            size--;
         } else {
             System.out.println("ERROR: Invalid Index");
         }

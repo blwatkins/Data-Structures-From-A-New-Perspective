@@ -6,7 +6,8 @@
 // Press 'p' to print the list to the console
 // Press 'b' to add a circle to the beginning of the list
 // Press 'e' to add a circle to the end of the list
-// Press any number key 0-9 to add a circle to the corresponding position in the list
+// Press any number key (0-9) to add a circle to the corresponding position in the list
+// Press SHIFT + any number key (0-9) to remove a circle from the corresponding position in the list
 
 import processing.core.*;
 
@@ -29,11 +30,13 @@ public class CustomLinkedList extends PApplet {
     }
 
     public void settings() {
-        size(displayWidth, displayHeight - 45);
+        //size(displayWidth, displayHeight - 45);
+        size(500, 500);
     }
 
     public void keyPressed() {
         String addString = "0123456789";
+        String deleteString = ")!@#$%^&*(";
 
         if (key == 'p') {
             System.out.println(myList);
@@ -47,6 +50,15 @@ public class CustomLinkedList extends PApplet {
 
             if (key == addString.charAt(i)) {
                 addCircle(i);
+            }
+
+        }
+
+        for (int i = 0; i < deleteString.length(); i++) {
+
+            if (key == deleteString.charAt(i)) {
+                System.out.println(key);
+                myList.remove(i);
             }
 
         }
