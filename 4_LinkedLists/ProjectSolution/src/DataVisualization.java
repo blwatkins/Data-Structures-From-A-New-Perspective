@@ -1,10 +1,12 @@
 // Brittni Watkins
 // Unit 4: Linked Lists
 // Project - Data Visualization
+// Sources
+    // periodicTable.json --> https://github.com/Bowserinator/Periodic-Table-JSON/blob/master/PeriodicTableJSON.json
 
 import processing.core.PApplet;
 
-public class DataVisualization extends PApplet{
+public class DataVisualization extends PApplet {
 
     public void setup() {
 
