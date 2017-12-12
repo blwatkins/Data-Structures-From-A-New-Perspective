@@ -30,8 +30,7 @@ public class CustomLinkedList extends PApplet {
     }
 
     public void settings() {
-        //size(displayWidth, displayHeight - 45);
-        size(500, 500);
+        size(displayWidth, displayHeight - 45);
     }
 
     public void keyPressed() {
@@ -57,8 +56,7 @@ public class CustomLinkedList extends PApplet {
         for (int i = 0; i < deleteString.length(); i++) {
 
             if (key == deleteString.charAt(i)) {
-                System.out.println(key);
-                myList.remove(i);
+                deleteCircle(i);
             }
 
         }
@@ -87,6 +85,10 @@ public class CustomLinkedList extends PApplet {
         int color = color(random(255), random(255), random(255));
         Circle c = new Circle(this, new PVector(x, y), color);
         myList.add(c);
+    }
+
+    private void deleteCircle(int index) {
+        myList.remove(index);
     }
 
     static public void main(String[] passedArgs) {
