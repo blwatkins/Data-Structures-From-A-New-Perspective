@@ -4,32 +4,56 @@
 // Sources
     // periodicTable.json --> https://github.com/Bowserinator/Periodic-Table-JSON/blob/master/PeriodicTableJSON.json
 
+import java.util.LinkedList;
+
 import processing.core.PApplet;
 import processing.data.JSONArray;
 import processing.data.JSONObject;
 
 public class DataVisualization extends PApplet {
-    private String filename = "periodicTable.json";
+    private LinkedList<Element> elements;
 
     public void setup() {
-        JSONObject elementsObject = loadJSONObject(filename);
-        JSONArray elements = elementsObject.getJSONArray("elements");
+        Data.init(this);
+        JSONArray elementsArray = getElementsArray("periodicTable.json");
+        createElements(elementsArray);
 
-        try {
-            Element e = createElement(elements.getJSONObject(0));
-            println(e);
-        } catch (Exception e) {
-            System.out.println(e);
-        }
+        mapElements();
+        println(elements);
     }
 
     public void draw() {
 
+        for (Element e: elements) {
+            e.display();
+        }
+
     }
 
     public void settings() {
-        //size(displayWidth, displayHeight-45);
-        size(600, 600);
+        size(displayWidth, displayHeight-45);
+        //size(600, 600);
+    }
+
+    private JSONArray getElementsArray(String filename) {
+        JSONObject elementsObject = loadJSONObject(filename);
+        return elementsObject.getJSONArray("elements");
+    }
+
+    private void createElements(JSONArray elementsArray) {
+        elements = new LinkedList<>();
+
+        //for (int i = 0; i < 10; i++) {
+        for (int i = 0; i < elementsArray.size(); i++) {
+
+            try {
+                elements.add(createElement(elementsArray.getJSONObject(i)));
+            } catch (Exception e) {
+                println(e);
+            }
+
+        }
+
     }
 
     private Element createElement(JSONObject elementObject) throws Exception {
@@ -40,6 +64,37 @@ public class DataVisualization extends PApplet {
         e.setAtomicMass(elementObject.getFloat("atomic_mass"));
         e.setDensity(elementObject.getFloat("density"));
         return e;
+    }
+
+    private void mapElements() {
+        float[] atomicMasses = getAtomicMasses();
+        float[] densities = getDensities();
+
+        for (Element e: elements) {
+            e.mapX(Data.getMinFloat(atomicMasses), Data.getMaxFloat(atomicMasses));
+            e.mapY(Data.getMinFloat(densities), Data.getMaxFloat(densities));
+        }
+
+    }
+
+    private float[] getAtomicMasses() {
+        float[] atomicMasses = new float[elements.size()];
+
+        for (int i = 0; i < elements.size(); i++) {
+            atomicMasses[i] = elements.get(i).getAtomicMass();
+        }
+
+        return atomicMasses;
+    }
+
+    private float[] getDensities() {
+        float[] densities = new float[elements.size()];
+
+        for (int i = 0; i < elements.size(); i++) {
+            densities[i] = elements.get(i).getDensity();
+        }
+
+        return densities;
     }
 
     public static void main(String[] passedArgs) {

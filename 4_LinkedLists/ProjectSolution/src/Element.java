@@ -14,6 +14,11 @@ public class Element {
     private float atomicMass;
     private float density;
 
+    private float x;
+    private float y;
+    private float size;
+    private int color;
+
     public Element(PApplet p) {
         this.p = p;
     }
@@ -34,8 +39,28 @@ public class Element {
         this.atomicMass = atomicMass;
     }
 
+    public float getAtomicMass() {
+        return atomicMass;
+    }
+
     public void setDensity(float density) {
         this.density = density;
+    }
+
+    public float getDensity() {
+        return density;
+    }
+
+    public void mapX(float minMass, float maxMass) {
+        x = p.map(atomicMass, minMass, maxMass, 45, p.width-45);
+    }
+
+    public void mapY(float minDensity, float maxDensity) {
+        y = p.map(density, minDensity, maxDensity, p.height - 45, 45);
+    }
+
+    public void display() {
+        p.ellipse(x, y, 25, 25);
     }
 
     public String toString() {
@@ -44,6 +69,7 @@ public class Element {
         out += "    symbol = " + symbol + '\n';
         out += "    atomicNumber = " + atomicNumber + '\n';
         out += "    atomicMass = " + atomicMass + '\n';
+        out += "    density = " + density + '\n';
         return out;
     }
 
