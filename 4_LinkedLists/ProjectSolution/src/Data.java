@@ -2,6 +2,8 @@
 // Unit 4: Linked Lists
 // Project - Data Visualization
 // Data Class
+// Functions for processing data
+// i.e. getting min and max values from an array; getting average or median values
 
 import processing.core.PApplet;
 

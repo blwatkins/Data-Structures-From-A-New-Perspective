@@ -12,29 +12,61 @@ import processing.data.JSONObject;
 
 public class DataVisualization extends PApplet {
     private LinkedList<Element> elements;
+    private boolean move;
 
     public void setup() {
         colorMode(HSB, 255);
-        Data.init(this);
+        Data.init(this); // initialize PApplet object for static Data class
         JSONArray elementsArray = getElementsArray("periodicTable.json");
         createElements(elementsArray);
-
         mapElements();
-        println(elements);
+        move = false;
     }
 
     public void draw() {
-        background(0);
+        Element selected = null;
+        noStroke();
+        fill(0, 10);
+        rect(-10, -10, width + 10, height + 10);
 
         for (Element e: elements) {
             e.display();
+
+            if (e.mouseOver()) {
+                selected = e;
+            }
+
+            if (move) {
+                e.randomWalk();
+            }
+
+        }
+
+        for (Element e: elements) {
+
+            if (e == selected) {
+                e.setHighlight(true);
+                displayInfo(e);
+            } else {
+                e.setHighlight(false);
+            }
+
         }
 
     }
 
     public void settings() {
-        //size(displayWidth, displayHeight-45);
-        size(600, 600);
+        size(displayWidth, displayHeight-45);
+    }
+
+    public void mousePressed() {
+        move = !move;
+    }
+
+    public void keyPressed() {
+        for (Element e: elements) {
+            e.reset();
+        }
     }
 
     private JSONArray getElementsArray(String filename) {
@@ -45,7 +77,6 @@ public class DataVisualization extends PApplet {
     private void createElements(JSONArray elementsArray) {
         elements = new LinkedList<>();
 
-        //for (int i = 0; i < 10; i++) {
         for (int i = 0; i < elementsArray.size(); i++) {
 
             try {
@@ -69,15 +100,27 @@ public class DataVisualization extends PApplet {
     }
 
     private void mapElements() {
+        int[] atomicNums = getAtomicNums();
         float[] atomicMasses = getAtomicMasses();
         float[] densities = getDensities();
 
         for (Element e: elements) {
-            e.mapX(Data.getMinFloat(atomicMasses), Data.getMaxFloat(atomicMasses));
+            e.mapX(Data.getMinInt(atomicNums), Data.getMaxInt(atomicNums));
             e.mapY(Data.getMinFloat(densities), Data.getMaxFloat(densities));
+            e.mapR(Data.getMinFloat(atomicMasses), Data.getMaxFloat(atomicMasses));
             e.mapColor();
         }
 
+    }
+
+    private int[] getAtomicNums() {
+        int[] atomicNums = new int[elements.size()];
+
+        for (int i = 0; i < elements.size(); i++) {
+            atomicNums[i] = elements.get(i).getAtomicNumber();
+        }
+
+        return atomicNums;
     }
 
     private float[] getAtomicMasses() {
@@ -98,6 +141,13 @@ public class DataVisualization extends PApplet {
         }
 
         return densities;
+    }
+
+    private void displayInfo(Element e) {
+        textAlign(LEFT, TOP);
+        textSize(20);
+        fill(255);
+        text(e.toString(), 15, 0);
     }
 
     public static void main(String[] passedArgs) {

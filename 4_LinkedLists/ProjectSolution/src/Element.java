@@ -6,7 +6,7 @@
 import processing.core.PApplet;
 
 public class Element {
-    PApplet p;
+    private PApplet p;
 
     private String name;
     private  String symbol;
@@ -14,13 +14,27 @@ public class Element {
     private float atomicMass;
     private float density;
 
+    private float originalX;
+    private float originalY;
     private float x;
     private float y;
-    private float size;
+    private float r;
     private int color;
+
+    private boolean highlight;
 
     public Element(PApplet p) {
         this.p = p;
+        name = "";
+        symbol = "";
+        atomicNumber = -1;
+        atomicMass = -1;
+        density = -1;
+        x = 0;
+        y = 0;
+        r = 10;
+        color = p.color(0);
+        highlight = false;
     }
 
     public void setName(String name) {
@@ -33,6 +47,10 @@ public class Element {
 
     public void setAtomicNumber(int atomicNumber) {
      this.atomicNumber = atomicNumber;
+    }
+
+    public int getAtomicNumber() {
+        return atomicNumber;
     }
 
     public void setAtomicMass(float atomicMass) {
@@ -51,12 +69,22 @@ public class Element {
         return density;
     }
 
-    public void mapX(float minMass, float maxMass) {
-        x = p.map(atomicMass, minMass, maxMass, 45, p.width-45);
+    public void setHighlight(boolean highlight) {
+        this.highlight = highlight;
+    }
+
+    public void mapX(int minNum, int maxNum) {
+        x = p.map(atomicNumber, minNum, maxNum, 45, p.width - 45);
+        originalX = x;
     }
 
     public void mapY(float minDensity, float maxDensity) {
         y = p.map(density, minDensity, maxDensity, p.height - 45, 45);
+        originalY = y;
+    }
+
+    public void mapR(float minMass, float maxMass) {
+        r = p.map(atomicMass, minMass, maxMass, 10, 50);
     }
 
     public void mapColor() {
@@ -75,9 +103,47 @@ public class Element {
     }
 
     public void display() {
-        p.noStroke();
-        p.fill(color, 150);
-        p.ellipse(x, y, 25, 25);
+
+        if (highlight) {
+            p.strokeWeight(3);
+            p.stroke(42, 255, 255);
+        } else {
+            p.noStroke();
+        }
+
+        p.fill(color, 200);
+        p.ellipse(x, y, r * 2, r * 2);
+    }
+
+    public void randomWalk() {
+        int rand = (int)p.random(1000);
+
+        if (rand % 4 == 0) {
+            x += 1;
+        } else if (rand % 4 == 1) {
+            x -= 1;
+        } else if (rand % 4 == 2) {
+            y += 1;
+        } else if (rand % 4 == 3) {
+            y -= 1;
+        }
+
+    }
+
+    public boolean mouseOver() {
+        float d = p.dist(x, y, p.mouseX, p.mouseY);
+
+        if (d < r) {
+            return true;
+        } else {
+            return false;
+        }
+
+    }
+
+    public void reset() {
+        x = originalX;
+        y = originalY;
     }
 
     public String toString() {
@@ -89,6 +155,5 @@ public class Element {
         out += "    density = " + density + '\n';
         return out;
     }
-
 
 }
