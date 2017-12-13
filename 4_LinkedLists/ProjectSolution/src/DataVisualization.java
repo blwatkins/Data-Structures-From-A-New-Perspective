@@ -14,6 +14,7 @@ public class DataVisualization extends PApplet {
     private LinkedList<Element> elements;
 
     public void setup() {
+        colorMode(HSB, 255);
         Data.init(this);
         JSONArray elementsArray = getElementsArray("periodicTable.json");
         createElements(elementsArray);
@@ -23,6 +24,7 @@ public class DataVisualization extends PApplet {
     }
 
     public void draw() {
+        background(0);
 
         for (Element e: elements) {
             e.display();
@@ -31,8 +33,8 @@ public class DataVisualization extends PApplet {
     }
 
     public void settings() {
-        size(displayWidth, displayHeight-45);
-        //size(600, 600);
+        //size(displayWidth, displayHeight-45);
+        size(600, 600);
     }
 
     private JSONArray getElementsArray(String filename) {
@@ -73,6 +75,7 @@ public class DataVisualization extends PApplet {
         for (Element e: elements) {
             e.mapX(Data.getMinFloat(atomicMasses), Data.getMaxFloat(atomicMasses));
             e.mapY(Data.getMinFloat(densities), Data.getMaxFloat(densities));
+            e.mapColor();
         }
 
     }

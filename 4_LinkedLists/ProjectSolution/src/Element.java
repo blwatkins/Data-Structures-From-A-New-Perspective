@@ -59,7 +59,24 @@ public class Element {
         y = p.map(density, minDensity, maxDensity, p.height - 45, 45);
     }
 
+    public void mapColor() {
+        float h;
+        float s;
+
+        if (symbol.length() == 1) {
+            h = p.map((int)symbol.charAt(0), (int)'A', (int)'Z', 0, 255);
+            s = 255;
+        } else {
+            h = p.map((int)symbol.charAt(0), (int)'A', (int)'Z', 0, 255);
+            s = p.map((int)symbol.charAt(1), (int)'a', (int)'z', 50, 255);
+        }
+
+        color = p.color(h, s, 250);
+    }
+
     public void display() {
+        p.noStroke();
+        p.fill(color, 150);
         p.ellipse(x, y, 25, 25);
     }
 
