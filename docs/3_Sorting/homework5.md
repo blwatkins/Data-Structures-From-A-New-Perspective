@@ -6,7 +6,7 @@ Using the Processing sketch from the [Visualizing Text](homework1.md) assignment
 ## Step 2
 Plot a graph that shows the size of the data vs. the time it took the algorithm to sort the data.  Write a short paragraph explaining why you chose the data sets that you did, how you gathered the timing data, and how the results of the tests compare to the expected performance of the algorithm.
 
-## [Solution](https://github.com/blwatkins/Data-Structures-From-A-New-Perspective/blob/master/3_Sorting/HomeworkSolutions/Homework5/src/EmpiricalAnalysis.java)
+# [Solution](https://github.com/blwatkins/Data-Structures-From-A-New-Perspective/blob/master/3_Sorting/HomeworkSolutions/Homework5/src/EmpiricalAnalysis.java)
 
 <img src="Images/Homework5/all-sorts.png" alt="Merge Sort, Quick Sort, and Selection Sort Comparison" width="500" height="300">
 

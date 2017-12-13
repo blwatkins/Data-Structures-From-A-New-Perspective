@@ -12,7 +12,7 @@
   * User interaction changes which attribute the data is sorted by
   * Each data point's position on the screen should correspond to its current position in the data structure
 
-## [Solution](https://github.com/blwatkins/Data-Structures-From-A-New-Perspective/tree/master/3_Sorting/ProjectSolution/src)
+# [Solution](https://github.com/blwatkins/Data-Structures-From-A-New-Perspective/tree/master/3_Sorting/ProjectSolution/src)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ZPWIMiJ2shw" frameborder="0" allowfullscreen></iframe>
 

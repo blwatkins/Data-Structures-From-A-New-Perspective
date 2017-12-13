@@ -2,6 +2,8 @@
 
 Using the Linked List implemented during lecture, create a `void remove(int index)` method that removes an element from the list.  The function should include bounds checking; an index parameter that is too small or too large should produce an error message in the console.
 
+# [Solution](https://github.com/blwatkins/Data-Structures-From-A-New-Perspective/tree/master/4_LinkedLists/HomeworkSolutions/Homework1/src)
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/poyXuGJyQZI" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
 
 <br>
